@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#fffafc"/><stop offset=".5" stop-color="#f2f0ff"/><stop offset="1" stop-color="#e8f8f8"/></linearGradient><filter id="shadow"><feGaussianBlur stdDeviation="5"/></filter></defs>
+<rect width="1000" height="260" rx="26" fill="url(#bg)" stroke="#ddd8ee"/>
+<text x="48" y="52" font-family="ui-sans-serif,system-ui" font-size="18" font-weight="600" fill="#334155">current code palette</text>
+<path d="M48 66h70" stroke="#b7a8e8" stroke-width="3" stroke-linecap="round"/>
+<g font-family="ui-sans-serif,system-ui" text-anchor="middle">
+<circle cx="235" cy="132" r="62" fill="#3776ab" opacity=".14"/><circle cx="235" cy="132" r="48" fill="#3776ab"/><text x="235" y="140" font-size="30" font-weight="700" fill="#ffd343">Py</text><text x="235" y="215" font-size="18" fill="#334155">Python</text>
+<circle cx="500" cy="132" r="62" fill="#00599c" opacity=".14"/><circle cx="500" cy="132" r="48" fill="#00599c"/><text x="500" y="141" font-size="25" font-weight="700" fill="white">C++</text><text x="500" y="215" font-size="18" fill="#334155">C++</text>
+<circle cx="765" cy="132" r="62" fill="#3178c6" opacity=".14"/><circle cx="765" cy="132" r="48" fill="#3178c6"/><text x="765" y="141" font-size="25" font-weight="700" fill="white">TS</text><text x="765" y="215" font-size="18" fill="#334155">TypeScript</text>
+</g>
+<g fill="#c9b7ec"><circle cx="150" cy="95" r="4"/><circle cx="860" cy="92" r="5"/><circle cx="910" cy="170" r="3"/></g>
+</svg>
