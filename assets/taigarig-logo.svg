@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0f2027"/><stop offset="1" stop-color="#2f5d50"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ffd89b"/><stop offset="1" stop-color="#e8823c"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="900" height="240" rx="28" fill="url(#bg)"/>
+<circle cx="450" cy="120" r="86" fill="none" stroke="#ffd89b" stroke-opacity=".15" stroke-width="2">
+<animate attributeName="r" values="78;96;78" dur="3s" repeatCount="indefinite"/>
+<animate attributeName="stroke-opacity" values=".05;.28;.05" dur="3s" repeatCount="indefinite"/>
+</circle>
+<g transform="translate(285 55)">
+<path d="M40 130V20h32v43l52-43h42l-58 51 64 59h-45l-55-50v50z" fill="#f4ead1"/>
+<path d="M190 20h32l-42 110h-32z" fill="url(#accent)" filter="url(#glow)"/>
+</g>
+<text x="450" y="198" text-anchor="middle" font-family="Georgia,serif" font-size="28" font-weight="bold" fill="#f4ead1" letter-spacing="5">TAIGARIG</text>
+</svg>
