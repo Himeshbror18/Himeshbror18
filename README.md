@@ -8,16 +8,6 @@
 
 <div align="center">
 
-### interactive profile
-
-React + React Three Fiber scene → [`profile-app`](./profile-app)
-
-</div>
-
-<br>
-
-<div align="center">
-
 <img src="./assets/code-palette-v13.svg" width="100%" alt="Python, C++ and TypeScript palette"/>
 
 </div>
