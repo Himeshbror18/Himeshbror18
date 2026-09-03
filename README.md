@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="./assets/profile-hero-v14.svg" width="100%" alt="Himanshu profile"/>
+<img src="./assets/profile-hero-v15.svg" width="100%" alt="Himanshu profile — sky themed"/>
 
 <br><br>
 
-<img src="./assets/code-palette-v14.svg" width="100%" alt="Python C++ TypeScript"/>
+<img src="./assets/code-palette-v15.svg" width="100%" alt="Python C++ TypeScript"/>
 
 <br><br>
 
