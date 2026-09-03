@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-hero-v12.svg" width="100%" alt="Graphic anime-inspired profile artwork"/>
+<img src="./assets/profile-hero-v13.svg" width="100%" alt="Graphic anime-inspired profile artwork"/>
 
 </div>
 
@@ -10,7 +10,7 @@
 
 ### fragments / things I'm making
 
-**Code, hardware, experiments — collected as I go.**
+**Code, hardware, experiments.**
 
 </div>
 
@@ -18,7 +18,7 @@
 
 <div align="center">
 
-<img src="./assets/code-palette-v12.svg" width="100%" alt="Asymmetric Python C++ and TypeScript language palette"/>
+<img src="./assets/code-palette-v13.svg" width="100%" alt="Asymmetric Python C++ and TypeScript language palette"/>
 
 </div>
 
@@ -39,5 +39,5 @@
 <br>
 
 <div align="center">
-<sub>A few things in motion.</sub>
+<sub>Projects and experiments.</sub>
 </div>
