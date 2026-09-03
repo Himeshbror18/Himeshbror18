@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 520">
+<defs>
+ <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08080b"/><stop offset=".52" stop-color="#17151c"/><stop offset="1" stop-color="#32131f"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff" stop-opacity=".24"/><stop offset=".5" stop-color="#ffffff" stop-opacity=".08"/><stop offset="1" stop-color="#ffffff" stop-opacity=".02"/></linearGradient>
+ <linearGradient id="flare" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff3151" stop-opacity="0"/><stop offset=".5" stop-color="#ff3151" stop-opacity=".9"/><stop offset="1" stop-color="#ff3151" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="1400" height="520" rx="30" fill="url(#wash)"/>
+<!-- atmospheric light -->
+<path d="M0 395Q330 330 650 375T1400 300V520H0Z" fill="#28212e"/>
+<path d="M0 430Q380 360 700 410T1400 335" fill="none" stroke="#72567d" stroke-width="2" opacity=".55"/>
+<path d="M0 454Q370 385 710 430T1400 355" fill="none" stroke="#b83c58" stroke-width="1.5" opacity=".35"/>
+<!-- large editorial color cuts -->
+<path d="M0 0H360L255 520H0Z" fill="#f2ede3"/>
+<path d="M360 0H485L380 520H255Z" fill="#ff3151"/>
+<path d="M1110 0H1400V520H1035Z" fill="#24202d"/>
+<path d="M1180 0H1270L1165 520H1075Z" fill="#72509a" opacity=".72"/>
+<!-- glass panel -->
+<g transform="rotate(-4 800 250)">
+ <rect x="525" y="100" width="520" height="300" rx="34" fill="url(#glass)" stroke="#fff" stroke-opacity=".22"/>
+ <path d="M560 132H1010" stroke="#fff" stroke-opacity=".24"/>
+ <path d="M560 366H1010" stroke="#fff" stroke-opacity=".08"/>
+ <text x="575" y="168" font-family="Arial,sans-serif" font-size="13" letter-spacing="5" fill="#f5f0e7" opacity=".72">PERSONAL / WORKBENCH</text>
+ <text x="575" y="245" font-family="Arial Black,Arial,sans-serif" font-size="62" fill="#fff">MAKE</text>
+ <text x="575" y="305" font-family="Arial Black,Arial,sans-serif" font-size="62" fill="#fff">SOMETHING.</text>
+ <text x="578" y="345" font-family="monospace" font-size="12" fill="#d8ccd9">code · hardware · experiments</text>
+</g>
+<!-- glass reflections -->
+<path d="M580 126H830" stroke="#fff" stroke-width="10" opacity=".08"/>
+<path d="M930 370H1000" stroke="#fff" stroke-width="8" opacity=".08"/>
+<!-- tiny maker board -->
+<g transform="translate(1070 350) rotate(8)">
+ <rect width="190" height="100" rx="10" fill="#e7e0d8" opacity=".92"/>
+ <g fill="none" stroke="#5c4a65" stroke-width="3"><path d="M20 28h55v38h55v-25h40"/><path d="M25 78h48V53h30"/></g>
+ <g fill="#ff3151"><circle cx="20" cy="28" r="5"/><circle cx="170" cy="41" r="5"/><circle cx="73" cy="66" r="5"/></g>
+</g>
+<!-- perspective floor -->
+<g stroke="#f5f0e7" stroke-opacity=".13" stroke-width="2">
+ <path d="M470 520L700 390M650 520L760 390M860 520L815 390M1070 520L875 390"/>
+</g>
+<!-- light streak -->
+<path d="M410 410H980" stroke="url(#flare)" stroke-width="4"/>
+<!-- restrained annotation -->
+<g font-family="monospace" font-size="11" fill="#f5f0e7">
+ <text x="55" y="58" letter-spacing="4">HB / 01</text>
+ <text x="1270" y="468" letter-spacing="3" transform="rotate(-8 1270 468)">KEEP MOVING</text>
+</g>
+</svg>
