@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-hero-v15.svg" width="100%" alt="Himanshu profile — sky themed"/>
+<img src="./assets/profile-hero-v16.svg" width="100%" alt="Himanshu profile — balanced sky theme"/>
 
 <br><br>
 
