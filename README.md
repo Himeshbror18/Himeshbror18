@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-hero-v9.svg" width="100%" alt="Anime-inspired coding workspace at blue hour"/>
+<img src="./assets/profile-hero-v10.svg" width="100%" alt="Original Monogatari-inspired graphic profile artwork"/>
 
 </div>
 
@@ -8,9 +8,9 @@
 
 <div align="center">
 
-### a place for things I actually make
+### fragments / things I'm making
 
-Projects, experiments, hardware, and ideas that start out as a little bit of curiosity.
+**Code, hardware, experiments — collected as I go.**
 
 </div>
 
@@ -18,7 +18,7 @@ Projects, experiments, hardware, and ideas that start out as a little bit of cur
 
 <div align="center">
 
-<img src="./assets/code-palette-v9.svg" width="100%" alt="Python, C++, and TypeScript code palette"/>
+<img src="./assets/code-palette-v10.svg" width="100%" alt="Asymmetric Python, C++, and TypeScript code palette"/>
 
 </div>
 
