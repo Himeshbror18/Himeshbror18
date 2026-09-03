@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071b31"/><stop offset=".5" stop-color="#0a3557"/><stop offset="1" stop-color="#0b5f86"/></linearGradient>
+ <linearGradient id="py" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2d78b8"/><stop offset="1" stop-color="#67d6ff"/></linearGradient>
+ <linearGradient id="cpp" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#126da0"/><stop offset="1" stop-color="#3bb9ed"/></linearGradient>
+ <linearGradient id="ts" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2378bf"/><stop offset="1" stop-color="#6dd5ff"/></linearGradient>
+ <filter id="s"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#00101f" flood-opacity=".42"/></filter>
+</defs>
+<rect width="1200" height="470" rx="30" fill="url(#bg)"/>
+<circle cx="1010" cy="80" r="130" fill="#62d9ff" opacity=".08"/>
+<circle cx="170" cy="420" r="170" fill="#1a78ae" opacity=".09"/>
+<text x="70" y="68" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#c8edff">CURRENT STACK</text>
+<path d="M70 85h88" stroke="#59d5ff" stroke-width="4" stroke-linecap="round"/>
+<g filter="url(#s)">
+ <g transform="rotate(-2 290 250)">
+  <rect x="90" y="125" width="360" height="245" rx="28" fill="#092039" stroke="#51c9f5" stroke-opacity=".65" stroke-width="2"/>
+  <rect x="115" y="150" width="72" height="72" rx="20" fill="url(#py)"/>
+  <text x="151" y="198" text-anchor="middle" font-family="Arial" font-size="30" font-weight="800" fill="#031521">Py</text>
+  <text x="115" y="270" font-family="Arial" font-size="28" font-weight="800" fill="#ecfaff">PYTHON</text>
+  <text x="115" y="300" font-family="monospace" font-size="12" fill="#8db8cc">automation · experiments</text>
+  <path d="M115 335h235" stroke="#18394f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M115 335h165" stroke="#51c9f5" stroke-width="8" stroke-linecap="round"/>
+ </g>
+ <g transform="rotate(1.5 600 250)">
+  <rect x="420" y="125" width="360" height="245" rx="28" fill="#092039" stroke="#36b8ee" stroke-opacity=".65" stroke-width="2"/>
+  <rect x="445" y="150" width="72" height="72" rx="20" fill="url(#cpp)"/>
+  <text x="481" y="198" text-anchor="middle" font-family="Arial" font-size="25" font-weight="800" fill="#031521">C++</text>
+  <text x="445" y="270" font-family="Arial" font-size="28" font-weight="800" fill="#ecfaff">C++</text>
+  <text x="445" y="300" font-family="monospace" font-size="12" fill="#8db8cc">logic · systems</text>
+  <path d="M445 335h235" stroke="#18394f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M445 335h185" stroke="#36b8ee" stroke-width="8" stroke-linecap="round"/>
+ </g>
+ <g transform="rotate(-1 910 250)">
+  <rect x="750" y="125" width="360" height="245" rx="28" fill="#092039" stroke="#55cfff" stroke-opacity=".65" stroke-width="2"/>
+  <rect x="775" y="150" width="72" height="72" rx="20" fill="url(#ts)"/>
+  <text x="811" y="198" text-anchor="middle" font-family="Arial" font-size="26" font-weight="800" fill="#031521">TS</text>
+  <text x="775" y="270" font-family="Arial" font-size="28" font-weight="800" fill="#ecfaff">TYPESCRIPT</text>
+  <text x="775" y="300" font-family="monospace" font-size="12" fill="#8db8cc">web · interfaces</text>
+  <path d="M775 335h235" stroke="#18394f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M775 335h150" stroke="#55cfff" stroke-width="8" stroke-linecap="round"/>
+ </g>
+</g>
+</svg>
