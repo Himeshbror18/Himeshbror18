@@ -21,6 +21,7 @@
 <path d="M355 350L1100 180" stroke="#ff3151" stroke-width="2" opacity=".45"/>
 </g>
 <text x="385" y="148" font-family="Georgia,serif" font-size="66" font-weight="700" fill="#17151b">Himanshu</text>
+<text x="388" y="172" font-family="monospace" font-size="10" letter-spacing="4" fill="#8d6ac4">CURIOUS / BUILDING / LEARNING</text>
 <path d="M389 162 C500 178 620 166 690 155" fill="none" stroke="#ff4964" stroke-width="3" stroke-linecap="round"/>
 <circle cx="700" cy="154" r="5" fill="#76539f"/>
 <text x="387" y="112" font-family="monospace" font-size="11" letter-spacing="3" fill="#76539f">HB / 01</text>
@@ -29,10 +30,18 @@
 <rect x="388" y="235" width="510" height="62" rx="14" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
 <text x="414" y="275" font-family="monospace" font-size="19" fill="#f7f2e9">$ <tspan fill="#ff7188">_</tspan></text>
 <text x="438" y="275" font-family="monospace" font-size="19" fill="#f7f2e9">
-<tspan>building things that work</tspan><animate attributeName="opacity" values="0;1;1;1;1;0" dur="4s" repeatCount="indefinite"/></text>
-<text x="438" y="275" font-family="monospace" font-size="19" fill="#f7f2e9"><tspan>turning ideas into systems</tspan><animate attributeName="opacity" values="0;0;0;1;1;0" dur="6s" repeatCount="indefinite"/></text>
-<text x="438" y="275" font-family="monospace" font-size="19" fill="#f7f2e9"><tspan>python • cpp • linux • web</tspan><animate attributeName="opacity" values="0;0;0;0;1;0" dur="8s" repeatCount="indefinite"/></text>
+<tspan>building things that work</tspan>
+<animate attributeName="opacity" values="0;1;1;1;1;0;0" keyTimes="0;.12;.55;.72;.86;1;1" dur="5s" repeatCount="indefinite"/>
 </text>
+<text x="438" y="275" font-family="monospace" font-size="19" fill="#f7f2e9">
+<tspan>turning ideas into systems</tspan>
+<animate attributeName="opacity" values="0;0;0;1;1;0;0" keyTimes="0;.28;.42;.55;.78;1;1" dur="5s" repeatCount="indefinite"/>
+</text>
+<text x="438" y="275" font-family="monospace" font-size="19" fill="#f7f2e9">
+<tspan>python • cpp • linux • web</tspan>
+<animate attributeName="opacity" values="0;0;0;0;0;1;0" keyTimes="0;.42;.55;.72;.82;.9;1" dur="5s" repeatCount="indefinite"/>
+</text>
+<path d="M388 314h510" stroke="#f7f2e9" stroke-opacity=".08"/>
 <text x="388" y="350" font-family="Arial,sans-serif" font-size="15" fill="#514957">robotics / software / experiments</text>
 <text x="935" y="350" font-family="monospace" font-size="11" fill="#8d6ac4">01 — 03</text>
 <text x="388" y="318" font-family="monospace" font-size="13" fill="#76539f"><tspan>exploring Python, C++, Linux</tspan><animate attributeName="opacity" values="0;0;1;1;0" dur="7s" repeatCount="indefinite"/></text>
