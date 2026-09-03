@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 500">
+<rect width="1400" height="500" fill="#FFFFFF"/>
+<!-- Sky layers: flat colour fields, no gradients -->
+<path d="M0 365L170 315L330 350L505 290L680 335L855 280L1035 325L1210 275L1400 310V500H0Z" fill="#E3F5FA"/>
+<path d="M0 430L165 380L350 420L535 365L720 410L900 350L1085 395L1245 345L1400 372V500H0Z" fill="#C8E7F0"/>
+<!-- controlled contrast accents -->
+<path d="M980 0H1400V138L1215 178L980 125Z" fill="#0B6F9E" opacity=".08"/>
+<path d="M1180 0H1400V80L1290 115Z" fill="#C9574A" opacity=".16"/>
+<path d="M75 90H245M75 90V120" stroke="#0B6F9E" stroke-width="3"/>
+<path d="M1325 410H1155M1325 410V380" stroke="#C9574A" stroke-width="3"/>
+<!-- Main profile panel -->
+<rect x="300" y="55" width="800" height="355" rx="30" fill="#FFFFFF" stroke="#B6D8E3" stroke-width="2"/>
+<path d="M335 88H1065" stroke="#14394B" stroke-opacity=".13"/>
+<circle cx="360" cy="88" r="5" fill="#14394B"/>
+<circle cx="378" cy="88" r="5" fill="#19A9D5"/>
+<circle cx="396" cy="88" r="5" fill="#C9574A"/>
+<text x="350" y="130" font-family="monospace" font-size="11" letter-spacing="3" fill="#0B5F85">HB / PROFILE · 01</text>
+<!-- redesigned name treatment -->
+<text x="350" y="210" font-family="Arial Black,Arial,sans-serif" font-size="74" font-weight="900" letter-spacing="-2" fill="#08283D">Himanshu</text>
+<path d="M352 226H570" stroke="#0B6F9E" stroke-width="5" stroke-linecap="round"/>
+<path d="M578 226H625" stroke="#C9574A" stroke-width="5" stroke-linecap="round"/>
+<text x="353" y="260" font-family="monospace" font-size="11" letter-spacing="4" fill="#315D70">BUILDING · LEARNING · EXPERIMENTING</text>
+<text x="350" y="300" font-family="Arial,sans-serif" font-size="16" fill="#315568" letter-spacing="2">PYTHON · C++ · TYPESCRIPT · LINUX</text>
+<!-- deliberate dynamic geometry -->
+<path d="M875 120L1065 120L975 315L785 315Z" fill="#0B6F9E" opacity=".045"/>
+<path d="M985 120L1065 120L1020 225L940 225Z" fill="#C9574A" opacity=".11"/>
+<circle cx="1015" cy="292" r="18" fill="#19A9D5" opacity=".12"/>
+<circle cx="1050" cy="260" r="7" fill="#C9574A" opacity=".55"/>
+<text x="350" y="360" font-family="Arial,sans-serif" font-size="14" fill="#466A7A">robotics / software / experiments</text>
+<text x="950" y="360" font-family="monospace" font-size="10" fill="#0B6F9E">SKYLINE // 2026</text>
+<path d="M350 385H1050" stroke="#14394B" stroke-opacity=".12"/>
+<path d="M350 385H590" stroke="#19A9D5" stroke-width="4" stroke-linecap="round"/>
+<path d="M598 385H650" stroke="#C9574A" stroke-width="4" stroke-linecap="round"/>
+<path d="M75 452H320" stroke="#0B6F9E" stroke-width="5" stroke-linecap="round"/>
+<path d="M320 452H380" stroke="#C9574A" stroke-width="5" stroke-linecap="round"/>
+<text x="75" y="478" font-family="monospace" font-size="11" letter-spacing="3" fill="#0B5878">CURIOUS MIND / PRACTICAL BUILDER</text>
+</svg>
