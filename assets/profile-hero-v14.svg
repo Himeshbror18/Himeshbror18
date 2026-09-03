@@ -18,12 +18,17 @@
 <path d="M980 50L1160 50L1040 460L860 460Z" fill="url(#red)" opacity=".14"/>
 <path d="M355 350L1100 180" stroke="#ff3151" stroke-width="2" opacity=".45"/>
 </g>
-<text x="385" y="150" font-family="Arial,sans-serif" font-size="64" font-weight="800" fill="#17151b">Himanshu</text>
-<text x="388" y="193" font-family="Arial,sans-serif" font-size="18" fill="#6f6675" letter-spacing="2">PYTHON  ·  C++  ·  TYPESCRIPT</text>
+<text x="385" y="148" font-family="Georgia,serif" font-size="66" font-weight="700" fill="#17151b">Himanshu</text>
+<path d="M389 162 C500 178 620 166 690 155" fill="none" stroke="#ff4964" stroke-width="3" stroke-linecap="round"/>
+<circle cx="700" cy="154" r="5" fill="#76539f"/>
+<text x="387" y="112" font-family="monospace" font-size="11" letter-spacing="3" fill="#76539f">HB / 01</text>
+<text x="388" y="198" font-family="Arial,sans-serif" font-size="16" fill="#6f6675" letter-spacing="2">PYTHON  ·  C++  ·  TYPESCRIPT</text>
 <rect x="388" y="235" width="510" height="62" rx="14" fill="#17151b"/>
 <text x="414" y="275" font-family="monospace" font-size="19" fill="#f7f2e9">$ <tspan fill="#ff7188">_</tspan></text>
 <text x="438" y="275" font-family="monospace" font-size="19" fill="#f7f2e9">
-<tspan>building things that work</tspan><animate attributeName="opacity" values="0;1;1;1;1;0" dur="4s" repeatCount="indefinite"/><animate attributeName="x" values="438;438;438" dur="4s" repeatCount="indefinite"/>
+<tspan>building things that work</tspan><animate attributeName="opacity" values="0;1;1;1;1;0" dur="4s" repeatCount="indefinite"/></text>
+<text x="438" y="275" font-family="monospace" font-size="19" fill="#f7f2e9"><tspan>turning ideas into systems</tspan><animate attributeName="opacity" values="0;0;0;1;1;0" dur="6s" repeatCount="indefinite"/></text>
+<text x="438" y="275" font-family="monospace" font-size="19" fill="#f7f2e9"><tspan>python • cpp • linux • web</tspan><animate attributeName="opacity" values="0;0;0;0;1;0" dur="8s" repeatCount="indefinite"/></text>
 </text>
 <text x="388" y="340" font-family="Arial,sans-serif" font-size="15" fill="#514957">robotics / software / experiments</text>
 <text x="388" y="318" font-family="monospace" font-size="13" fill="#76539f"><tspan>exploring Python, C++, Linux</tspan><animate attributeName="opacity" values="0;0;1;1;0" dur="7s" repeatCount="indefinite"/></text>
