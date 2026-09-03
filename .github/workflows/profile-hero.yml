@@ -1,0 +1,69 @@
+name: Generate animated profile hero
+
+on:
+  push:
+    paths:
+      - '.github/workflows/profile-hero.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  hero:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install pillow
+      - name: Render hero GIF
+        run: |
+          python - <<'PY'
+          from PIL import Image, ImageDraw, ImageFont
+          import math, os
+          W,H=1400,430
+          frames=[]
+          font='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
+          bold='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
+          mono='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf'
+          for i in range(32):
+              im=Image.new('RGB',(W,H),'white'); d=ImageDraw.Draw(im)
+              d.polygon([(0,320),(180,270),(330,305),(505,245),(680,290),(855,235),(1035,280),(1210,230),(1400,265),(1400,430),(0,430)],fill='#E3F5FA')
+              d.polygon([(980,0),(1400,0),(1400,125),(1220,165),(980,112)],fill='#E8F4F8')
+              d.polygon([(1180,0),(1400,0),(1400,75),(1290,110)],fill='#F4DDDA')
+              d.rounded_rectangle((300,45,1100,375),radius=30,fill='white',outline='#B6D8E3',width=2)
+              d.line((335,78,1065,78),fill='#14394B',width=1)
+              d.ellipse((355,73,365,83),fill='#14394B'); d.ellipse((373,73,383,83),fill='#19A9D5'); d.ellipse((391,73,401,83),fill='#C9574A')
+              d.text((350,108),'HB / PROFILE · 01',font=ImageFont.truetype(mono,15),fill='#0B5F85')
+              d.text((350,145),'Himesh',font=ImageFont.truetype(bold,78),fill='#09263A')
+              d.line((352,220,585,220),fill='#0B6F9E',width=5); d.line((595,220,650,220),fill='#C9574A',width=5)
+              d.text((353,240),'BUILDING · LEARNING · EXPERIMENTING',font=ImageFont.truetype(mono,15),fill='#315D70')
+              d.text((350,282),'PYTHON · C++ · TYPESCRIPT',font=ImageFont.truetype(font,16),fill='#315568')
+              d.line((350,330,1050,330),fill='#DDE9ED',width=2)
+              d.line((350,330,600,330),fill='#19A9D5',width=4); d.line((608,330,660,330),fill='#C9574A',width=4)
+              d.text((350,342),'robotics / software / experiments',font=ImageFont.truetype(font,13),fill='#527386')
+              d.text((950,342),'SKYLINE // 2026',font=ImageFont.truetype(mono,12),fill='#0B6F9E')
+              # slash impact
+              t=i/31
+              p=0 if t<.25 else (1 if t<.55 else max(0,1-(t-.55)/.45))
+              if p:
+                  w=max(2,int(30*p)); glow=max(2,int(24*p))
+                  d.line((690,112,1015,300),fill='#C62828',width=glow)
+                  d.line((680,105,1025,307),fill='#0B0D10',width=w)
+                  for j in range(8):
+                      u=j/7; x=700+315*u; y=120+175*u
+                      dx=(u-.5)*45*p; dy=(u-.5)*25*p
+                      d.line((x+dx,y+dy,x+dx+10,y+dy+5),fill='#C62828',width=3)
+              frames.append(im)
+          os.makedirs('assets',exist_ok=True)
+          frames[0].save('assets/profile-hero.gif',save_all=True,append_images=frames[1:],duration=90,loop=0,optimize=True)
+          PY
+      - name: Commit generated hero
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile-hero.gif
+          git diff --cached --quiet || git commit -m "Generate animated profile hero"
+          git push
