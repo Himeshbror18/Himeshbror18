@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 500">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0b10"/><stop offset=".58" stop-color="#17141c"/><stop offset="1" stop-color="#2a1020"/></linearGradient>
+<linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff3151"/><stop offset="1" stop-color="#b91536"/></linearGradient>
+<linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9a63d6"/><stop offset="1" stop-color="#4b2c70"/></linearGradient>
+</defs>
+<rect width="1400" height="500" rx="26" fill="url(#bg)"/>
+<!-- graphic planes / perspective -->
+<path d="M0 0H470L335 500H0Z" fill="#f5f0e7"/>
+<path d="M470 0H790L665 500H335Z" fill="#e5dfe9"/>
+<path d="M790 0H1400V500H665Z" fill="#111017"/>
+<path d="M0 410L510 330L900 385L1400 270V500H0Z" fill="#25212d"/>
+<path d="M0 420L510 340L900 395L1400 280" fill="none" stroke="#ff3151" stroke-width="3" opacity=".75"/>
+<!-- red vertical cut -->
+<path d="M430 0H505L390 500H315Z" fill="url(#red)"/>
+<!-- large type as structure -->
+<g font-family="Arial Black,Arial,sans-serif" font-weight="900">
+<text x="78" y="190" font-size="112" fill="#17151b" letter-spacing="-8">MAKE</text>
+<text x="78" y="292" font-size="112" fill="#17151b" letter-spacing="-8">THINGS</text>
+<text x="720" y="118" font-size="74" fill="#f5f0e7" opacity=".95" transform="rotate(-7 720 118)">IDEA → CODE</text>
+</g>
+<!-- restrained maker objects -->
+<g transform="translate(735 245)">
+<rect x="0" y="0" width="310" height="150" rx="10" fill="#20202a" stroke="#a987c9" stroke-width="2"/>
+<rect x="18" y="18" width="274" height="105" fill="#0d0e13"/>
+<g fill="#b7a6c9" font-family="monospace" font-size="13">
+<text x="32" y="47">for idea in mind:</text><text x="32" y="70">    build(idea)</text><text x="32" y="93">    learn()</text>
+</g>
+<rect x="132" y="150" width="45" height="13" fill="#a987c9"/>
+</g>
+<!-- circuit board, deliberately tiny -->
+<g transform="translate(1085 315)">
+<rect width="190" height="95" rx="8" fill="#d7d0c9"/>
+<g stroke="#5c4a65" stroke-width="3" fill="none"><path d="M18 25h60v30h45v20h48"/><path d="M25 75h40V45h35"/><path d="M120 20v25h48"/></g>
+<g fill="#ff3151"><circle cx="18" cy="25" r="5"/><circle cx="168" cy="75" r="5"/><circle cx="83" cy="55" r="5"/></g>
+</g>
+<!-- framing / crop marks -->
+<g fill="#f5f0e7" font-family="monospace" font-size="12" letter-spacing="3">
+<text x="52" y="455">HB / 2026</text><text x="1190" y="58">FRAGMENT 01</text>
+</g>
+<g stroke="#f5f0e7" stroke-width="2" opacity=".45"><path d="M52 76h90M52 76v30M1348 410h-90M1348 410v-30"/></g>
+<!-- diagonal cut -->
+<path d="M1270 0L1400 0V130L1325 205L1248 130Z" fill="url(#violet)" opacity=".82"/>
+</svg>
