@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-hero-v3.svg" width="100%" alt="Light anime-inspired profile artwork"/>
+<img src="./assets/profile-hero-v4.svg" width="100%" alt="Soft anime-inspired morning scene"/>
 
 </div>
 
@@ -8,7 +8,7 @@
 
 <div align="center">
 
-### 🌸 a small corner of the internet
+### a small corner of the internet
 
 **Projects, experiments, hardware, and ideas that I felt like making.**
 
@@ -18,13 +18,13 @@
 
 <div align="center">
 
-<img src="./assets/code-palette-v3.svg" width="100%" alt="Python, C++, and TypeScript code palette"/>
+<img src="./assets/code-palette-v4.svg" width="100%" alt="Python, C++, and TypeScript code palette"/>
 
 </div>
 
 <br>
 
-### 🌷 Contribution garden
+### ◇ Contribution arc
 
 <div align="center">
 
