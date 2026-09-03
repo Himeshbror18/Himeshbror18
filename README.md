@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-hero-v10.svg" width="100%" alt="Original Monogatari-inspired graphic profile artwork"/>
+<img src="./assets/profile-hero-v11.svg" width="100%" alt="Graphic anime-inspired profile artwork"/>
 
 </div>
 
@@ -18,7 +18,7 @@
 
 <div align="center">
 
-<img src="./assets/code-palette-v10.svg" width="100%" alt="Asymmetric Python, C++, and TypeScript code palette"/>
+<img src="./assets/code-palette-v11.svg" width="100%" alt="Asymmetric Python C++ and TypeScript language palette"/>
 
 </div>
 
