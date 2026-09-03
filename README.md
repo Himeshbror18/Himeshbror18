@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-hero-v7.svg" width="100%" alt="Anime-inspired maker studio"/>
+<img src="./assets/profile-hero-v8.svg" width="100%" alt="Anime-inspired coding workspace at blue hour"/>
 
 </div>
 
@@ -18,7 +18,7 @@ Projects, experiments, hardware, and ideas that start out as a little bit of cur
 
 <div align="center">
 
-<img src="./assets/code-palette-v7.svg" width="100%" alt="Python, C++, and TypeScript code palette"/>
+<img src="./assets/code-palette-v8.svg" width="100%" alt="Python, C++, and TypeScript code palette"/>
 
 </div>
 
