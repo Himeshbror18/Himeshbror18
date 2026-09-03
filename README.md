@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-hero-v4.svg" width="100%" alt="Soft anime-inspired morning scene"/>
+<img src="./assets/profile-scene-v5.svg" width="100%" alt="A quiet illustrated workspace overlooking a distant city"/>
 
 </div>
 
@@ -8,9 +8,11 @@
 
 <div align="center">
 
-### a small corner of the internet
+## ✦ field notes
 
-**Projects, experiments, hardware, and ideas that I felt like making.**
+I make things that start as a question and become a project.
+
+<sub>hardware · software · experiments · whatever seems interesting enough to try</sub>
 
 </div>
 
@@ -18,13 +20,13 @@
 
 <div align="center">
 
-<img src="./assets/code-palette-v4.svg" width="100%" alt="Python, C++, and TypeScript code palette"/>
+<img src="./assets/code-palette-v5.svg" width="100%" alt="Python, C++, and TypeScript code palette"/>
 
 </div>
 
 <br>
 
-### ◇ Contribution arc
+### ◇ contribution trail
 
 <div align="center">
 
