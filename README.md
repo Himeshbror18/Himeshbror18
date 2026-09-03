@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-hero-v8.svg" width="100%" alt="Anime-inspired coding workspace at blue hour"/>
+<img src="./assets/profile-hero-v9.svg" width="100%" alt="Anime-inspired coding workspace at blue hour"/>
 
 </div>
 
@@ -18,13 +18,13 @@ Projects, experiments, hardware, and ideas that start out as a little bit of cur
 
 <div align="center">
 
-<img src="./assets/code-palette-v8.svg" width="100%" alt="Python, C++, and TypeScript code palette"/>
+<img src="./assets/code-palette-v9.svg" width="100%" alt="Python, C++, and TypeScript code palette"/>
 
 </div>
 
 <br>
 
-### ◇ Contribution arc
+### ◇ contribution / moving
 
 <div align="center">
 
@@ -39,5 +39,5 @@ Projects, experiments, hardware, and ideas that start out as a little bit of cur
 <br>
 
 <div align="center">
-<sub>More experiments will find their way here.</sub>
+<sub>A few things in motion.</sub>
 </div>
