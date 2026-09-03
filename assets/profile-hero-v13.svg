@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 500">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08080b"/><stop offset=".55" stop-color="#17151c"/><stop offset="1" stop-color="#32131f"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".18"/><stop offset=".45" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity=".025"/></linearGradient>
+</defs>
+<rect width="1400" height="500" rx="28" fill="url(#bg)"/>
+<path d="M0 0H390L285 500H0Z" fill="#f2ede3"/>
+<path d="M390 0H465L360 500H285Z" fill="#ff3151"/>
+<path d="M1120 0H1400V500H1030Z" fill="#24202d"/>
+<path d="M1190 0H1270L1165 500H1085Z" fill="#72509a" opacity=".7"/>
+<path d="M0 408L490 326L870 382L1400 270V500H0Z" fill="#25212d"/>
+<path d="M0 430L500 347L900 397L1400 287" fill="none" stroke="#ff3151" stroke-width="3" opacity=".7"/>
+<!-- glass object, no slogans -->
+<g transform="rotate(-3 785 245)">
+ <rect x="510" y="95" width="540" height="305" rx="30" fill="url(#glass)" stroke="#fff" stroke-opacity=".24"/>
+ <path d="M545 130H1015" stroke="#fff" stroke-opacity=".22"/>
+ <path d="M545 365H1015" stroke="#fff" stroke-opacity=".08"/>
+ <rect x="555" y="157" width="450" height="175" rx="10" fill="#090a0f" stroke="#fff" stroke-opacity=".12"/>
+ <!-- code, visual only -->
+ <g font-family="monospace" font-size="13">
+  <text x="580" y="192" fill="#d8ccd9">01  import time</text>
+  <text x="580" y="220" fill="#d8ccd9">02  while building:</text>
+  <text x="580" y="248" fill="#b58bd0">03      test()</text>
+  <text x="580" y="276" fill="#b58bd0">04      iterate()</text>
+  <text x="580" y="304" fill="#ff7188">05      repeat</text>
+ </g>
+</g>
+<!-- physical keyboard-like geometry -->
+<g transform="translate(610 405) skewX(-18)">
+ <rect width="430" height="34" rx="6" fill="#d9d1c8"/>
+ <g fill="#7a7180"><rect x="12" y="8" width="30" height="18" rx="2"/><rect x="50" y="8" width="30" height="18" rx="2"/><rect x="88" y="8" width="30" height="18" rx="2"/><rect x="126" y="8" width="30" height="18" rx="2"/><rect x="164" y="8" width="30" height="18" rx="2"/><rect x="202" y="8" width="30" height="18" rx="2"/><rect x="240" y="8" width="30" height="18" rx="2"/><rect x="278" y="8" width="30" height="18" rx="2"/><rect x="316" y="8" width="30" height="18" rx="2"/><rect x="354" y="8" width="62" height="18" rx="2"/></g>
+</g>
+<g font-family="monospace" font-size="11" fill="#f5f0e7" opacity=".7"><text x="52" y="58">HB / 01</text><text x="1265" y="458">2026</text></g>
+<g stroke="#f5f0e7" stroke-width="2" opacity=".4"><path d="M52 78h78M52 78v25M1348 420h-78M1348 420v-25"/></g>
+</svg>
