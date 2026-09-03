@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470">
+<rect width="1200" height="470" rx="30" fill="#FFFFFF"/>
+<path d="M0 390L160 340L320 380L500 325L690 375L860 330L1040 365L1200 320V470H0Z" fill="#E6F5F9"/>
+<path d="M1010 0H1200V150L1090 188L995 132Z" fill="#0B6F9E" opacity=".08"/>
+<path d="M70 68H158" stroke="#19A9D5" stroke-width="4" stroke-linecap="round"/><path d="M1010 68H1130" stroke="#C9574A" stroke-width="4" stroke-linecap="round"/>
+<text x="70" y="54" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#102F43">LANGUAGES</text>
+<g>
+<rect x="55" y="105" width="340" height="285" rx="24" fill="#FFFFFF" stroke="#3776AB" stroke-width="2"/>
+<rect x="430" y="105" width="340" height="285" rx="24" fill="#FFFFFF" stroke="#659AD2" stroke-width="2"/>
+<rect x="805" y="105" width="340" height="285" rx="24" fill="#FFFFFF" stroke="#3178C6" stroke-width="2"/>
+<rect x="95" y="142" width="82" height="82" rx="18" fill="#F4FAFD" stroke="#3776AB" stroke-opacity=".3"/>
+<image href="./python-original.svg" x="108" y="155" width="56" height="56" preserveAspectRatio="xMidYMid meet"/>
+<rect x="470" y="142" width="82" height="82" rx="18" fill="#EDF5FB" stroke="#659AD2" stroke-opacity=".4"/>
+<image href="./cplusplus-original.svg" x="483" y="155" width="56" height="56" preserveAspectRatio="xMidYMid meet"/>
+<rect x="845" y="142" width="82" height="82" rx="18" fill="#EAF3FB" stroke="#3178C6" stroke-opacity=".4"/>
+<image href="./typescript-original.svg" x="858" y="155" width="56" height="56" preserveAspectRatio="xMidYMid meet"/>
+<text x="95" y="278" font-family="Arial,sans-serif" font-size="27" font-weight="800" fill="#09283F">PYTHON</text><text x="95" y="308" font-family="monospace" font-size="12" fill="#527386">automation · experiments</text><path d="M95 350H330" stroke="#D8EAF1" stroke-width="8" stroke-linecap="round"/><path d="M95 350H250" stroke="#3776AB" stroke-width="8" stroke-linecap="round"/>
+<text x="470" y="278" font-family="Arial,sans-serif" font-size="27" font-weight="800" fill="#09283F">C++</text><text x="470" y="308" font-family="monospace" font-size="12" fill="#527386">logic · systems</text><path d="M470 350H705" stroke="#D8EAF1" stroke-width="8" stroke-linecap="round"/><path d="M470 350H650" stroke="#659AD2" stroke-width="8" stroke-linecap="round"/>
+<text x="845" y="278" font-family="Arial,sans-serif" font-size="27" font-weight="800" fill="#09283F">TYPESCRIPT</text><text x="845" y="308" font-family="monospace" font-size="12" fill="#527386">web · interfaces</text><path d="M845 350H1080" stroke="#D8EAF1" stroke-width="8" stroke-linecap="round"/><path d="M845 350H995" stroke="#3178C6" stroke-width="8" stroke-linecap="round"/>
+</g>
+</svg>
