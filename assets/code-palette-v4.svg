@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-labelledby="t d">
+<title id="t">Current code palette</title>
+<desc id="d">A soft editorial palette presenting Python, C++ and TypeScript as color swatches, with no rankings or percentages.</desc>
+<defs>
+ <linearGradient id="paper" x2="1" y2="1"><stop stop-color="#fffdf9"/><stop offset="1" stop-color="#f2f0fa"/></linearGradient>
+ <linearGradient id="lav" x2="1"><stop stop-color="#b8a7e8"/><stop offset="1" stop-color="#d4c9f2"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#73718b" flood-opacity=".14"/></filter>
+</defs>
+<rect width="1000" height="300" rx="28" fill="url(#paper)" stroke="#ddd8ea"/>
+<text x="54" y="52" font-family="ui-sans-serif,system-ui" font-size="18" font-weight="650" fill="#394150">current code palette</text>
+<text x="54" y="76" font-family="ui-sans-serif,system-ui" font-size="13" fill="#7b8494">the languages I keep reaching for</text>
+<path d="M54 92H148" stroke="url(#lav)" stroke-width="4" stroke-linecap="round"/>
+<!-- palette-like swatches -->
+<g filter="url(#shadow)">
+ <g transform="translate(70 112)"><rect width="240" height="126" rx="22" fill="#f5fbff" stroke="#d8e3ef"/><circle cx="54" cy="52" r="29" fill="#3776ab"/><text x="54" y="61" text-anchor="middle" font-family="ui-sans-serif,system-ui" font-size="22" font-weight="800" fill="#ffd343">Py</text><text x="102" y="50" font-family="ui-sans-serif,system-ui" font-size="19" font-weight="700" fill="#334155">Python</text><text x="102" y="73" font-family="ui-sans-serif,system-ui" font-size="12" fill="#7b8494">logic · automation · experiments</text><path d="M24 103Q74 82 124 102T216 96" fill="none" stroke="#8cb9df" stroke-width="4" stroke-linecap="round"/></g>
+ <g transform="translate(380 112)"><rect width="240" height="126" rx="22" fill="#fbf9ff" stroke="#e1daf0"/><circle cx="54" cy="52" r="29" fill="#2366a3"/><text x="54" y="61" text-anchor="middle" font-family="ui-sans-serif,system-ui" font-size="20" font-weight="800" fill="white">C++</text><text x="102" y="50" font-family="ui-sans-serif,system-ui" font-size="19" font-weight="700" fill="#334155">C++</text><text x="102" y="73" font-family="ui-sans-serif,system-ui" font-size="12" fill="#7b8494">systems · hardware · performance</text><path d="M24 103Q74 85 124 101T216 94" fill="none" stroke="#a89ad3" stroke-width="4" stroke-linecap="round"/></g>
+ <g transform="translate(690 112)"><rect width="240" height="126" rx="22" fill="#f7fcfc" stroke="#d7e9e8"/><circle cx="54" cy="52" r="29" fill="#3178c6"/><text x="54" y="61" text-anchor="middle" font-family="ui-sans-serif,system-ui" font-size="19" font-weight="800" fill="white">TS</text><text x="102" y="50" font-family="ui-sans-serif,system-ui" font-size="19" font-weight="700" fill="#334155">TypeScript</text><text x="102" y="73" font-family="ui-sans-serif,system-ui" font-size="12" fill="#7b8494">web · tooling · interfaces</text><path d="M24 103Q74 86 124 101T216 95" fill="none" stroke="#7bb8ba" stroke-width="4" stroke-linecap="round"/></g>
+</g>
+<circle cx="915" cy="45" r="4" fill="#efb1a5"/><circle cx="936" cy="62" r="3" fill="#b8a7e8"/>
+</svg>
