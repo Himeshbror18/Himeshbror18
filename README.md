@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-name.gif" width="100%" alt="Taiga profile with looping slash impact effect"/>
+<img src="./assets/taigarig-logo.svg" width="100%" alt="TaigaRig animated logo"/>
 
 <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=700&size=16&duration=3000&pause=900&color=FFFFFF&background=09263A&center=true&vCenter=true&width=800&height=50&border_radius=12&lines=taiga%40linux%3A~%24+building+ideas+into+working+systems;taiga%40linux%3A~%24+python+%2B+cpp+%2B+typescript;taiga%40linux%3A~%24+.%2Fexperiment+--run" alt="Linux terminal typing effect"/>
 
