@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 330">
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#fffaf7"/><stop offset=".52" stop-color="#f3f0ff"/><stop offset="1" stop-color="#e9f7f4"/></linearGradient>
+<filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-opacity=".12"/></filter>
+</defs>
+<rect width="1100" height="330" rx="30" fill="url(#bg)"/>
+<text x="60" y="62" font-family="ui-sans-serif,system-ui" font-size="18" font-weight="600" fill="#334155">current code palette</text>
+<text x="60" y="89" font-family="ui-sans-serif,system-ui" font-size="13" fill="#64748b">different tools, same curiosity.</text>
+<g filter="url(#shadow)" font-family="ui-sans-serif,system-ui">
+<g transform="rotate(-2 270 190)">
+<rect x="90" y="115" width="360" height="145" rx="24" fill="#fff" stroke="#e4e0ef"/>
+<circle cx="145" cy="170" r="31" fill="#3776ab"/><text x="145" y="179" text-anchor="middle" font-size="19" font-weight="700" fill="#ffd343">Py</text>
+<text x="200" y="162" font-size="23" font-weight="700" fill="#334155">Python</text><text x="200" y="188" font-size="13" fill="#64748b">automation · experiments</text>
+<path d="M200 215h190" stroke="#3776ab" stroke-opacity=".18" stroke-width="8" stroke-linecap="round"/>
+</g>
+<g transform="rotate(1.5 555 190)">
+<rect x="370" y="105" width="370" height="155" rx="24" fill="#fff" stroke="#e4e0ef"/>
+<circle cx="425" cy="170" r="31" fill="#00599c"/><text x="425" y="178" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">C++</text>
+<text x="480" y="162" font-size="23" font-weight="700" fill="#334155">C++</text><text x="480" y="188" font-size="13" fill="#64748b">logic · systems</text>
+<path d="M480 215h195" stroke="#00599c" stroke-opacity=".18" stroke-width="8" stroke-linecap="round"/>
+</g>
+<g transform="rotate(-1 820 190)">
+<rect x="690" y="120" width="320" height="140" rx="24" fill="#fff" stroke="#e4e0ef"/>
+<circle cx="745" cy="172" r="30" fill="#3178c6"/><text x="745" y="180" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">TS</text>
+<text x="795" y="165" font-size="22" font-weight="700" fill="#334155">TypeScript</text><text x="795" y="190" font-size="13" fill="#64748b">web · interfaces</text>
+<path d="M795 216h155" stroke="#3178c6" stroke-opacity=".18" stroke-width="8" stroke-linecap="round"/>
+</g>
+</g>
+</svg>
