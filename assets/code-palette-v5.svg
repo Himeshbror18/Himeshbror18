@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 360" role="img" aria-labelledby="title desc">
+<title id="title">HB code palette</title>
+<desc id="desc">A light illustrated desk-inspired palette for Python, C++, and TypeScript.</desc>
+<defs>
+<linearGradient id="paper" x2="1" y2="1"><stop stop-color="#fffdf9"/><stop offset=".55" stop-color="#f5f1ff"/><stop offset="1" stop-color="#eef8f7"/></linearGradient>
+<linearGradient id="ink" x2="1" y2="0"><stop stop-color="#6d5aa8"/><stop offset="1" stop-color="#5d9ca7"/></linearGradient>
+<filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#4b5563" flood-opacity=".14"/></filter>
+</defs>
+<rect width="1100" height="360" rx="30" fill="url(#paper)" stroke="#ded8ea" stroke-width="2"/>
+<path d="M60 76H1040" stroke="#c9c0df" stroke-width="2"/><path d="M60 300H1040" stroke="#d9d3e5" stroke-width="2"/>
+<text x="62" y="54" font-family="ui-sans-serif,system-ui" font-size="18" font-weight="700" fill="#384152">CURRENT CODE PALETTE</text>
+<text x="1040" y="54" text-anchor="end" font-family="ui-monospace,monospace" font-size="12" letter-spacing="2" fill="#8b839c">TOOLS / 03</text>
+<!-- cards -->
+<g filter="url(#shadow)">
+<g transform="translate(62 100) rotate(-1)"><rect width="292" height="170" rx="20" fill="#f8fbff" stroke="#cbdaf0"/><circle cx="52" cy="54" r="30" fill="#3776ab"/><text x="52" y="64" text-anchor="middle" font-family="ui-sans-serif,system-ui" font-size="24" font-weight="800" fill="#ffd343">Py</text><text x="98" y="50" font-family="ui-sans-serif,system-ui" font-size="23" font-weight="700" fill="#28344a">Python</text><text x="98" y="73" font-family="ui-sans-serif,system-ui" font-size="12" fill="#7b8191">automation · logic · experiments</text><path d="M34 112h224" stroke="#d8e2ef"/><text x="34" y="138" font-family="ui-monospace,monospace" font-size="11" letter-spacing="1.5" fill="#6b7280">INK 01 / BLUE + YELLOW</text></g>
+<g transform="translate(404 92) rotate(1.2)"><rect width="292" height="178" rx="20" fill="#fbf9ff" stroke="#d7d0ef"/><circle cx="52" cy="56" r="30" fill="#5b4b9a"/><text x="52" y="64" text-anchor="middle" font-family="ui-sans-serif,system-ui" font-size="20" font-weight="800" fill="#ffffff">C++</text><text x="98" y="52" font-family="ui-sans-serif,system-ui" font-size="23" font-weight="700" fill="#28344a">C++</text><text x="98" y="75" font-family="ui-sans-serif,system-ui" font-size="12" fill="#7b8191">systems · hardware · performance</text><path d="M34 114h224" stroke="#e0dbef"/><text x="34" y="141" font-family="ui-monospace,monospace" font-size="11" letter-spacing="1.5" fill="#6b7280">INK 02 / INDIGO</text></g>
+<g transform="translate(746 101) rotate(-.8)"><rect width="292" height="169" rx="20" fill="#f7fffc" stroke="#cce5df"/><circle cx="52" cy="54" r="30" fill="#3178c6"/><text x="52" y="63" text-anchor="middle" font-family="ui-sans-serif,system-ui" font-size="21" font-weight="800" fill="#ffffff">TS</text><text x="98" y="50" font-family="ui-sans-serif,system-ui" font-size="23" font-weight="700" fill="#28344a">TypeScript</text><text x="98" y="73" font-family="ui-sans-serif,system-ui" font-size="12" fill="#7b8191">interfaces · tooling · web</text><path d="M34 112h224" stroke="#d5e9e4"/><text x="34" y="138" font-family="ui-monospace,monospace" font-size="11" letter-spacing="1.5" fill="#6b7280">INK 03 / TEAL BLUE</text></g>
+</g>
+<text x="550" y="325" text-anchor="middle" font-family="ui-sans-serif,system-ui" font-size="13" fill="#7c7890" font-style="italic">different tools, same desk.</text>
+</svg>
