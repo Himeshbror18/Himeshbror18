@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 460" role="img" aria-labelledby="t d">
+<title id="t">Soft anime-inspired morning desk scene</title>
+<desc id="d">A light, calm illustration with a window, warm sunlight, distant hills, a notebook and small paper shapes. No flowers or names.</desc>
+<defs>
+ <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#f8f5ff"/><stop offset="1" stop-color="#eef6fb"/></linearGradient>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#a9ccef"/><stop offset=".55" stop-color="#f4c9d5"/><stop offset="1" stop-color="#ffe7bd"/></linearGradient>
+ <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#ffffff" stop-opacity=".42"/><stop offset="1" stop-color="#dcecff" stop-opacity=".12"/></linearGradient>
+ <radialGradient id="sun"><stop stop-color="#fff7d8"/><stop offset=".38" stop-color="#ffdcb8" stop-opacity=".75"/><stop offset="1" stop-color="#ffdcb8" stop-opacity="0"/></radialGradient>
+ <linearGradient id="desk" x2="0" y2="1"><stop stop-color="#d7c8bd"/><stop offset="1" stop-color="#b89e8d"/></linearGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
+ <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#5b6175" flood-opacity=".18"/></filter>
+</defs>
+<rect width="1400" height="460" rx="30" fill="url(#wall)"/>
+<!-- window -->
+<rect x="90" y="46" width="1220" height="300" rx="22" fill="#e7e2e4" filter="url(#shadow)"/>
+<rect x="112" y="68" width="1176" height="256" rx="12" fill="url(#sky)"/>
+<ellipse cx="855" cy="178" rx="210" ry="150" fill="url(#sun)" filter="url(#blur)"/>
+<!-- distant landscape -->
+<path d="M112 258 C250 208 350 250 476 198 C575 158 670 242 776 201 C908 150 1010 235 1127 190 C1190 166 1246 194 1288 211 L1288 324 L112 324 Z" fill="#9a9ac7" opacity=".34"/>
+<path d="M112 286 C270 242 374 278 512 235 C640 196 714 279 850 245 C996 209 1078 274 1194 238 C1240 224 1266 232 1288 242 L1288 324 L112 324 Z" fill="#7182a6" opacity=".28"/>
+<!-- city hints -->
+<g fill="#596b8b" opacity=".33">
+ <path d="M175 324h34v-42h18v42h22v-24h20v24h26v-54h24v54h32v-36h17v36h24v-18h17v18z"/>
+ <path d="M1000 324h24v-50h18v50h19v-25h18v25h26v-64h24v64h20v-32h17v32h35v-44h22v44h34v-20h17v20h34v-58h24v58z"/>
+</g>
+<rect x="112" y="68" width="1176" height="256" rx="12" fill="url(#glass)"/>
+<path d="M700 68v256" stroke="#ffffff" stroke-opacity=".75" stroke-width="5"/>
+<path d="M112 196h1176" stroke="#ffffff" stroke-opacity=".45" stroke-width="4"/>
+<!-- desk -->
+<path d="M0 344 Q350 318 700 345 T1400 338 V460 H0Z" fill="url(#desk)"/>
+<!-- notebook -->
+<g transform="translate(175 330) rotate(-5)" filter="url(#shadow)">
+ <rect width="340" height="92" rx="10" fill="#fffdf8"/>
+ <path d="M24 28H290M24 48H258M24 68H210" stroke="#b5aec3" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+ <circle cx="312" cy="27" r="10" fill="#f1b5bd" opacity=".7"/>
+</g>
+<!-- mug -->
+<g transform="translate(1040 345)" filter="url(#shadow)">
+ <path d="M0 8q0-8 8-8h78q8 0 8 8v60q0 18-18 18H18Q0 86 0 68Z" fill="#f5e8e2"/>
+ <path d="M94 20q43-6 42 24t-42 23" fill="none" stroke="#d8aaa8" stroke-width="9"/>
+ <path d="M22 0q-8-25 4-39M50 0q-7-28 5-44M76 0q-5-22 7-36" stroke="#ffffff" stroke-opacity=".65" stroke-width="5" stroke-linecap="round"/>
+</g>
+<!-- paper planes: geometric accent, not sci-fi -->
+<g fill="#ffffff" fill-opacity=".72" stroke="#9b92bd" stroke-opacity=".32">
+ <path d="M1185 113l52-18-24 49-10-22z"/>
+ <path d="M250 136l36-13-16 34-8-15z"/>
+</g>
+<!-- tiny sunlit dust -->
+<g fill="#fff" opacity=".62"><circle cx="615" cy="112" r="3"/><circle cx="668" cy="135" r="2"/><circle cx="914" cy="116" r="3"/><circle cx="966" cy="155" r="2"/></g>
+</svg>
