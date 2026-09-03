@@ -1,22 +1,30 @@
 <div align="center">
 
-<img src="./assets/profile-hero-v2.svg" width="100%" alt="Abstract digital landscape"/>
+<img src="./assets/profile-hero-v3.svg" width="100%" alt="Light anime-inspired profile artwork"/>
 
 </div>
 
-## ◇ What you'll find here
-
-Not a résumé. Not a scoreboard.
-
-Just the projects and experiments I'm actually interested in.
+<br>
 
 <div align="center">
 
-<img src="./assets/code-palette-v2.svg" width="100%" alt="Current code palette"/>
+### 🌸 a small corner of the internet
+
+**Projects, experiments, hardware, and ideas that I felt like making.**
 
 </div>
 
-## ◇ Contribution arc
+<br>
+
+<div align="center">
+
+<img src="./assets/code-palette-v3.svg" width="100%" alt="Python, C++, and TypeScript code palette"/>
+
+</div>
+
+<br>
+
+### 🌷 Contribution garden
 
 <div align="center">
 
@@ -31,5 +39,5 @@ Just the projects and experiments I'm actually interested in.
 <br>
 
 <div align="center">
-<sub>More experiments will appear here as they become worth keeping.</sub>
+<sub>More experiments will find their way here.</sub>
 </div>
