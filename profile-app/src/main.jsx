@@ -1,6 +1,2 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
-import App from './App.jsx';
-import './styles.css';
-
-createRoot(document.getElementById('root')).render(<App />);
+import React from "react";import{createRoot}from"react-dom/client";import{Canvas}from"@react-three/fiber";import{Float,Environment,Text,MeshTransmissionMaterial, RoundedBox}from"@react-three/drei";import{EffectComposer,Bloom,Vignette}from"@react-three/postprocessing";import"./style.css";
+function Scene(){return <Canvas camera={{position:[0,0,8],fov:42}}><color attach="background" args={["#09090d"]}/><ambientLight intensity={1.2}/><directionalLight position={[4,5,6]} intensity={4}/><pointLight position={[-4,1,3]} color="#ff3151" intensity={10}/><pointLight position={[4,-2,2]} color="#76539f" intensity={8}/><Environment preset="city"/><Float speed={1.3} rotationIntensity={.25} floatIntensity={.5}><RoundedBox args={[5.8,3.4,.18]} radius={.18} smoothness={5} rotation={[.1,-.25,.04]}><MeshTransmissionMaterial transmission={1} thickness={.45} roughness={.16} ior={1.35} chromaticAberration={.04} color="#d8cfe4" opacity={.34}/></RoundedBox><Text position={[-2.15,.75,.15]} fontSize={.5} color="#f4efe7" anchorX="left">HB</Text><Text position={[-2.15,.18,.15]} fontSize={.18} color="#c9bfd1" anchorX="left">PYTHON  /  C++  /  TYPESCRIPT</Text><Text position={[-2.15,-.42,.15]} fontSize={.13} color="#ff7188" anchorX="left">PROFILE / 2026</Text></Float><EffectComposer><Bloom intensity={.7} luminanceThreshold={.55} mipmapBlur/><Vignette darkness={.65}/></EffectComposer></Canvas>}createRoot(document.getElementById("root")).render(<Scene/>);
