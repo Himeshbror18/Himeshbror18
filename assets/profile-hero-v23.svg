@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 430">
+<rect width="1400" height="430" fill="#FFFFFF"/>
+<path d="M0 320L180 270L330 305L505 245L680 290L855 235L1035 280L1210 230L1400 265V430H0Z" fill="#E3F5FA"/>
+<path d="M980 0H1400V125L1220 165L980 112Z" fill="#0B6F9E" opacity=".09"/>
+<path d="M1180 0H1400V75L1290 110Z" fill="#C9574A" opacity=".15"/>
+<path d="M75 78H240M75 78V108" stroke="#0B6F9E" stroke-width="3"/>
+<path d="M1325 350H1160M1325 350V320" stroke="#C9574A" stroke-width="3"/>
+<rect x="300" y="45" width="800" height="330" rx="30" fill="#FFFFFF" stroke="#B6D8E3" stroke-width="2"/>
+<path d="M335 78H1065" stroke="#14394B" stroke-opacity=".13"/>
+<circle cx="360" cy="78" r="5" fill="#14394B"/><circle cx="378" cy="78" r="5" fill="#19A9D5"/><circle cx="396" cy="78" r="5" fill="#C9574A"/>
+<text x="350" y="120" font-family="monospace" font-size="11" letter-spacing="3" fill="#0B5F85">HB / PROFILE · 01</text>
+<text x="350" y="200" font-family="Trebuchet MS,Arial,sans-serif" font-size="76" font-weight="900" letter-spacing="-3" fill="#09263A">Himanshu</text>
+<path d="M352 218H575" stroke="#0B6F9E" stroke-width="5" stroke-linecap="round"/><path d="M585 218H635" stroke="#C9574A" stroke-width="5" stroke-linecap="round"/>
+<text x="353" y="253" font-family="monospace" font-size="11" letter-spacing="4" fill="#315D70">BUILDING · LEARNING · EXPERIMENTING</text>
+<text x="350" y="294" font-family="Arial,sans-serif" font-size="16" fill="#315568" letter-spacing="2">PYTHON · C++ · TYPESCRIPT</text>
+<path d="M350 330H1050" stroke="#14394B" stroke-opacity=".12"/><path d="M350 330H600" stroke="#19A9D5" stroke-width="4" stroke-linecap="round"/><path d="M608 330H660" stroke="#C9574A" stroke-width="4" stroke-linecap="round"/>
+<text x="350" y="356" font-family="Arial,sans-serif" font-size="13" fill="#527386">robotics / software / experiments</text>
+<text x="950" y="356" font-family="monospace" font-size="10" fill="#0B6F9E">SKYLINE // 2026</text>
+<circle cx="1030" cy="250" r="9" fill="#19A9D5" opacity=".25"/><circle cx="1060" cy="225" r="5" fill="#C9574A" opacity=".65"/>
+</svg>
