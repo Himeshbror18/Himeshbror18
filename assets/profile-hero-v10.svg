@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 500" role="img" aria-labelledby="t d">
+<title id="t">Asymmetric code collage</title><desc id="d">An original graphic composition inspired by Monogatari's editorial title-card language, using code, hardware, paper, and strong red, cream, black and violet planes.</desc>
+<rect width="1400" height="500" rx="28" fill="#f5efe4"/>
+<!-- black field / torn split -->
+<path d="M0 0H570L530 72L562 131L520 198L548 261L508 321L540 387L500 500H0Z" fill="#17151b"/>
+<path d="M560 0H690L645 92L678 180L628 273L666 360L615 500H505L548 390L515 327L555 262L524 197L566 132L535 70Z" fill="#c74754"/>
+<!-- violet plane -->
+<path d="M1110 0H1400V500H1025L1088 407L1052 330L1098 242L1062 164Z" fill="#66507d"/>
+<!-- large editorial typography -->
+<g font-family="Arial,Helvetica,sans-serif" font-weight="700" fill="#f5efe4">
+<text x="82" y="105" font-size="18" letter-spacing="6">FRAGMENT / 01</text>
+<text x="72" y="205" font-size="92">MAKE</text>
+<text x="72" y="292" font-size="92">THINGS</text>
+</g>
+<text x="74" y="345" font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#cfd0d6" letter-spacing="1">code / hardware / experiments</text>
+<path d="M74 367H410" stroke="#c74754" stroke-width="5"/>
+<!-- central code sheet -->
+<g transform="translate(690 62) rotate(-4)">
+<rect width="370" height="300" fill="#fffaf0" stroke="#d8ccb9" stroke-width="3"/>
+<rect x="22" y="22" width="326" height="30" fill="#eee6da"/>
+<circle cx="42" cy="37" r="5" fill="#c74754"/><circle cx="60" cy="37" r="5" fill="#8370a2"/><circle cx="78" cy="37" r="5" fill="#6d98a4"/>
+<g font-family="monospace" font-size="14">
+<text x="28" y="85" fill="#5b4770">01</text><text x="62" y="85" fill="#3c4656">for idea in mind:</text>
+<text x="28" y="112" fill="#5b4770">02</text><text x="62" y="112" fill="#c74754">    build(idea)</text>
+<text x="28" y="139" fill="#5b4770">03</text><text x="62" y="139" fill="#3c4656">    test(idea)</text>
+<text x="28" y="166" fill="#5b4770">04</text><text x="62" y="166" fill="#6d7d8b">    repeat()</text>
+<text x="28" y="208" fill="#5b4770">05</text><text x="62" y="208" fill="#3c4656"># still figuring it out</text>
+</g>
+<path d="M22 245H340" stroke="#c5b8ab"/>
+<text x="22" y="271" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="2" fill="#7d7380">PYTHON · C++ · TYPESCRIPT</text>
+</g>
+<!-- hardware object -->
+<g transform="translate(760 390) rotate(7)">
+<rect width="250" height="74" rx="12" fill="#2d3241" stroke="#171b26" stroke-width="4"/>
+<rect x="24" y="18" width="84" height="38" rx="5" fill="#36566c"/>
+<circle cx="47" cy="37" r="7" fill="#e8bb6b"/><circle cx="73" cy="37" r="7" fill="#77a995"/>
+<g stroke="#d4d7df" stroke-width="3" opacity=".7"><path d="M132 24h78M132 37h55M132 50h84"/></g>
+</g>
+<!-- staple-like accent, a visual nod without using a character -->
+<g fill="none" stroke="#c74754" stroke-width="9" stroke-linecap="round">
+<path d="M1188 100v94q0 22 22 22h72"/><path d="M1260 214v-94"/>
+</g>
+<g fill="#17151b" font-family="monospace">
+<text x="1144" y="285" font-size="13" letter-spacing="3">OBSERVATION_17</text>
+<text x="1144" y="314" font-size="12" fill="#f5efe4">nothing here needs to be</text>
+<text x="1144" y="335" font-size="12" fill="#f5efe4">perfectly aligned.</text>
+</g>
+<!-- tiny graphic marks -->
+<g fill="#17151b"><circle cx="1180" cy="392" r="3"/><circle cx="1200" cy="382" r="3"/><circle cx="1220" cy="392" r="3"/></g>
+<text x="74" y="462" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#7b7380" letter-spacing="3">HIMESHBROR18 / PROFILE</text>
+</svg>
