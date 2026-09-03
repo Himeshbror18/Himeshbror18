@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="./assets/profile-hero-v19.svg" width="100%" alt="Himanshu profile — white sky theme with typewriter"/>
+<img src="./assets/profile-hero-v20.svg" width="100%" alt="Himanshu profile — dynamic sky theme with typing effect"/>
 
 <br><br>
 
-<img src="./assets/code-palette-v17.svg" width="100%" alt="Python C++ TypeScript with language colors"/>
+<img src="./assets/code-palette-v18.svg" width="100%" alt="Python, C++, and TypeScript language logos"/>
 
 <br><br>
 
