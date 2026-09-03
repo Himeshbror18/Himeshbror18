@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 470">
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f2e8"/><stop offset=".62" stop-color="#efe8f4"/><stop offset="1" stop-color="#dfeef1"/></linearGradient>
+  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5b3b78"/><stop offset="1" stop-color="#2d2444"/></linearGradient>
+</defs>
+<rect width="1400" height="470" rx="26" fill="url(#paper)"/>
+<!-- large graphic planes -->
+<path d="M0 0H360L245 470H0Z" fill="#17151d"/>
+<path d="M1400 0H1090L1185 470H1400Z" fill="#201b2c"/>
+<path d="M325 0H1110L1015 470H395Z" fill="#faf6ed"/>
+<path d="M0 365L510 275L870 340L1400 235V470H0Z" fill="#d7d0df" opacity=".58"/>
+<!-- crimson slash -->
+<path d="M190 0L530 0L300 470H-40Z" fill="#c74359"/>
+<path d="M1110 0L1240 0L1115 470H985Z" fill="#7d5aa3" opacity=".78"/>
+<!-- anime-inspired cropped figure: original silhouette, graphic not photoreal -->
+<g transform="translate(640 48)">
+  <path d="M130 18C178 18 207 57 200 104C193 148 166 169 126 166C87 163 63 133 69 88C75 44 91 18 130 18Z" fill="#29253b"/>
+  <path d="M84 72C103 45 151 40 183 68C171 55 146 49 120 54C104 58 94 66 84 72Z" fill="#f3c9bd" opacity=".9"/>
+  <path d="M75 162C105 142 162 141 195 168L248 312L36 312Z" fill="url(#violet)"/>
+  <path d="M67 173L5 268L55 292L118 205Z" fill="#342a4a"/>
+  <path d="M188 174L255 262L212 291L152 205Z" fill="#342a4a"/>
+  <path d="M103 311L88 408H138L157 311Z" fill="#262331"/>
+  <path d="M168 311L187 408H236L213 311Z" fill="#262331"/>
+  <path d="M78 184L116 222L145 183L171 220L205 184L193 166L161 180L129 176L96 166Z" fill="#e9e0d5"/>
+  <circle cx="108" cy="93" r="4" fill="#c74359"/><circle cx="159" cy="93" r="4" fill="#c74359"/>
+</g>
+<!-- graphic objects -->
+<g fill="none" stroke="#2d2444" stroke-width="2" opacity=".55">
+ <circle cx="1210" cy="125" r="55"/><circle cx="1210" cy="125" r="40"/>
+ <path d="M1155 125h110M1210 70v110"/>
+</g>
+<g fill="#2d2444" font-family="ui-monospace,SFMono-Regular,monospace">
+ <text x="54" y="72" font-size="12" letter-spacing="4">SIDE / A</text>
+ <text x="1260" y="405" font-size="12" letter-spacing="3" transform="rotate(-8 1260 405)">01—</text>
+</g>
+<text x="445" y="420" fill="#332b43" font-family="ui-sans-serif,system-ui" font-size="15" letter-spacing="6">MAKE • EXPERIMENT • REPEAT</text>
+<path d="M445 435H955" stroke="#c74359" stroke-width="3"/>
+<!-- small paper cuts -->
+<path d="M390 70l115 18-24 55-112-18Z" fill="#fff" opacity=".8"/>
+<path d="M1020 292l95-22 16 56-96 22Z" fill="#fff" opacity=".75"/>
+</svg>
