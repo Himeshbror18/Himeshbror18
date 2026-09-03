@@ -1,1 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#a78bfa"/><stop offset=".5" stop-color="#67e8f9"/><stop offset="1" stop-color="#f0abfc"/></linearGradient></defs><rect width="1000" height="300" rx="24" fill="#0b0a13"/><rect x="1" y="1" width="998" height="298" rx="23" fill="#121020" stroke="#2a2542"/><rect x="38" y="36" width="7" height="54" rx="3" fill="url(#g)"/><text x="62" y="58" fill="#9f9ab8" font-family="ui-monospace,monospace" font-size="15" letter-spacing="3">SYSTEM // LANGUAGE MAP</text><text x="62" y="85" fill="#ece9ff" font-family="ui-sans-serif,system-ui" font-size="22" font-weight="700">The current code palette</text><g font-family="ui-sans-serif,system-ui"><text x="70" y="133" fill="#ece9ff" font-size="15">TypeScript</text><rect x="195" y="121" width="700" height="13" rx="6" fill="#242039"/><rect x="195" y="121" width="520" height="13" rx="6" fill="#a78bfa"/><text x="930" y="133" text-anchor="end" fill="#9f9ab8" font-size="12">primary</text><text x="70" y="172" fill="#ece9ff" font-size="15">JavaScript</text><rect x="195" y="160" width="700" height="13" rx="6" fill="#242039"/><rect x="195" y="160" width="390" height="13" rx="6" fill="#67e8f9"/><text x="930" y="172" text-anchor="end" fill="#9f9ab8" font-size="12">core</text><text x="70" y="211" fill="#ece9ff" font-size="15">HTML / CSS</text><rect x="195" y="199" width="700" height="13" rx="6" fill="#242039"/><rect x="195" y="199" width="300" height="13" rx="6" fill="#f0abfc"/><text x="930" y="211" text-anchor="end" fill="#9f9ab8" font-size="12">web</text></g><path d="M38 245H962" stroke="#2a2542"/><text x="62" y="270" fill="#9f9ab8" font-family="ui-monospace,monospace" font-size="13">Live language breakdown is regenerated from owned repositories</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" role="img" aria-labelledby="t d">
+<title id="t">Current code palette</title>
+<desc id="d">An abstract language palette featuring Python, C++, TypeScript and JavaScript.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090817"/><stop offset=".55" stop-color="#15122d"/><stop offset="1" stop-color="#071b20"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#a78bfa"/><stop offset=".5" stop-color="#67e8f9"/><stop offset="1" stop-color="#f0abfc"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="9"/></filter>
+</defs>
+<rect width="1000" height="340" rx="26" fill="url(#bg)"/>
+<rect x="1" y="1" width="998" height="338" rx="25" fill="none" stroke="#2c2748"/>
+<circle cx="820" cy="82" r="95" fill="#67e8f9" opacity=".06" filter="url(#glow)"/>
+<circle cx="140" cy="268" r="110" fill="#a78bfa" opacity=".055" filter="url(#glow)"/>
+<path d="M52 94H948M52 176H948M52 258H948" stroke="#ffffff" stroke-opacity=".055"/>
+<text x="56" y="54" fill="#918aa9" font-family="ui-monospace,monospace" font-size="14" letter-spacing="4">CURRENT CODE PALETTE</text>
+<text x="56" y="82" fill="#eeeaff" font-family="ui-sans-serif,system-ui" font-size="24" font-weight="700">A few of the tools in the box</text>
+
+<g font-family="ui-sans-serif,system-ui">
+<g transform="translate(58 118)"><circle cx="24" cy="24" r="24" fill="#19172c" stroke="#67e8f9"/><text x="24" y="32" text-anchor="middle" fill="#67e8f9" font-size="21" font-weight="800">Py</text><text x="64" y="19" fill="#eeeaff" font-size="17" font-weight="700">Python</text><text x="64" y="41" fill="#918aa9" font-size="13">automation · experiments · logic</text><rect x="430" y="12" width="380" height="9" rx="4.5" fill="#242039"/><rect x="430" y="12" width="300" height="9" rx="4.5" fill="#67e8f9"/></g>
+<g transform="translate(58 192)"><circle cx="24" cy="24" r="24" fill="#19172c" stroke="#a78bfa"/><text x="24" y="32" text-anchor="middle" fill="#a78bfa" font-size="17" font-weight="800">C++</text><text x="64" y="19" fill="#eeeaff" font-size="17" font-weight="700">C++</text><text x="64" y="41" fill="#918aa9" font-size="13">systems · hardware · performance</text><rect x="430" y="12" width="380" height="9" rx="4.5" fill="#242039"/><rect x="430" y="12" width="270" height="9" rx="4.5" fill="#a78bfa"/></g>
+<g transform="translate(58 266)"><circle cx="24" cy="24" r="24" fill="#19172c" stroke="#f0abfc"/><text x="24" y="31" text-anchor="middle" fill="#f0abfc" font-size="14" font-weight="800">TS</text><text x="64" y="19" fill="#eeeaff" font-size="17" font-weight="700">TypeScript</text><text x="64" y="41" fill="#918aa9" font-size="13">web projects · interfaces</text><rect x="430" y="12" width="380" height="9" rx="4.5" fill="#242039"/><rect x="430" y="12" width="225" height="9" rx="4.5" fill="#f0abfc"/></g>
+</g>
+<path d="M52 320H948" stroke="url(#accent)" stroke-opacity=".45"/>
+</svg>
