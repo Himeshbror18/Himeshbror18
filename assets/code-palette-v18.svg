@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470">
+<defs><filter id="s"><feDropShadow dx="0" dy="10" stdDeviation="13" flood-color="#123D53" flood-opacity=".12"/></filter></defs>
+<rect width="1200" height="470" rx="30" fill="#FFFFFF"/>
+<path d="M0 375C220 320 390 410 610 360S980 320 1200 365V470H0Z" fill="#E8F6FA"/><circle cx="1050" cy="70" r="90" fill="#C9EAF3"/><circle cx="130" cy="420" r="75" fill="#F2D9D4"/>
+<text x="70" y="68" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#102F43">CURRENT STACK</text><path d="M70 85h88" stroke="#19A9D5" stroke-width="4" stroke-linecap="round"/>
+<g filter="url(#s)">
+<rect x="75" y="125" width="335" height="245" rx="26" fill="#FFFFFF" stroke="#3776AB" stroke-width="2"/>
+<rect x="445" y="125" width="335" height="245" rx="26" fill="#FFFFFF" stroke="#659AD2" stroke-width="2"/>
+<rect x="815" y="125" width="335" height="245" rx="26" fill="#FFFFFF" stroke="#3178C6" stroke-width="2"/>
+<rect x="100" y="150" width="76" height="76" rx="18" fill="#3776AB"/>
+<image href="https://cdn.simpleicons.org/python/FFD43B" x="112" y="162" width="52" height="52" preserveAspectRatio="xMidYMid meet"/>
+<rect x="470" y="150" width="76" height="76" rx="18" fill="#004482"/>
+<image href="https://cdn.simpleicons.org/cplusplus/FFFFFF" x="482" y="162" width="52" height="52" preserveAspectRatio="xMidYMid meet"/>
+<rect x="840" y="150" width="76" height="76" rx="18" fill="#3178C6"/>
+<image href="https://cdn.simpleicons.org/typescript/FFFFFF" x="852" y="162" width="52" height="52" preserveAspectRatio="xMidYMid meet"/>
+<text x="100" y="270" font-family="Arial,sans-serif" font-size="28" font-weight="800" fill="#09283F">PYTHON</text><text x="100" y="300" font-family="monospace" font-size="12" fill="#527386">automation · experiments</text><path d="M100 335h220" stroke="#D8EAF1" stroke-width="8" stroke-linecap="round"/><path d="M100 335h155" stroke="#3776AB" stroke-width="8" stroke-linecap="round"/>
+<text x="470" y="270" font-family="Arial,sans-serif" font-size="28" font-weight="800" fill="#09283F">C++</text><text x="470" y="300" font-family="monospace" font-size="12" fill="#527386">logic · systems</text><path d="M470 335h220" stroke="#D8EAF1" stroke-width="8" stroke-linecap="round"/><path d="M470 335h175" stroke="#659AD2" stroke-width="8" stroke-linecap="round"/>
+<text x="840" y="270" font-family="Arial,sans-serif" font-size="28" font-weight="800" fill="#09283F">TYPESCRIPT</text><text x="840" y="300" font-family="monospace" font-size="12" fill="#527386">web · interfaces</text><path d="M840 335h220" stroke="#D8EAF1" stroke-width="8" stroke-linecap="round"/><path d="M840 335h145" stroke="#3178C6" stroke-width="8" stroke-linecap="round"/>
+</g>
+<path d="M1100 95h50v-25" stroke="#D45B4C" stroke-width="3" fill="none"/><circle cx="1100" cy="95" r="4" fill="#D45B4C"/>
+</svg>
