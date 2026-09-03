@@ -1,21 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
-  <title id="title">HB profile banner</title>
-  <desc id="desc">A dark cyber-anime inspired profile banner for HB.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#090718"/><stop offset="0.52" stop-color="#15103a"/><stop offset="1" stop-color="#06151d"/></linearGradient>
-    <radialGradient id="glow" cx="72%" cy="34%" r="62%"><stop offset="0" stop-color="#a855f7" stop-opacity=".38"/><stop offset=".42" stop-color="#22d3ee" stop-opacity=".12"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
-    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f5f3ff"/><stop offset=".45" stop-color="#c4b5fd"/><stop offset="1" stop-color="#67e8f9"/></linearGradient>
-    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#c4b5fd" stroke-opacity=".055" stroke-width="1"/></pattern>
-    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
-  </defs>
-  <rect width="1400" height="360" rx="28" fill="url(#bg)"/><rect width="1400" height="360" rx="28" fill="url(#glow)"/><rect x="18" y="18" width="1364" height="324" rx="22" fill="url(#grid)"/>
-  <circle cx="1080" cy="102" r="70" fill="#a855f7" opacity=".09" filter="url(#soft)"/><circle cx="1180" cy="176" r="86" fill="#22d3ee" opacity=".07" filter="url(#soft)"/>
-  <g opacity=".7" stroke="#67e8f9" stroke-width="2" fill="none"><path d="M860 290 L1040 178 L1400 178" opacity=".28"/><path d="M920 320 L1082 216 L1400 216" opacity=".2"/><path d="M990 340 L1120 252 L1400 252" opacity=".16"/><path d="M1060 360 L1160 286 L1400 286" opacity=".12"/><path d="M1040 178V320" opacity=".12"/><path d="M1120 178V300" opacity=".1"/><path d="M1200 178V282" opacity=".08"/><path d="M1280 178V268" opacity=".06"/></g>
-  <g fill="none" stroke="#a78bfa" stroke-width="2" opacity=".52"><path d="M880 80h120l22 18h72"/><path d="M1018 80v28"/><path d="M1094 98v18h114l28 24h112"/><path d="M1184 248h82l24-22h86"/></g>
-  <g fill="#67e8f9" opacity=".85"><circle cx="1000" cy="80" r="3"/><circle cx="1208" cy="142" r="3"/><circle cx="1272" cy="248" r="3"/></g>
-  <text x="82" y="110" fill="#94a3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="18" letter-spacing="5">SIGNAL // PROFILE_01</text>
-  <text x="78" y="208" fill="url(#title)" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="110" font-weight="800" letter-spacing="-5">HB</text>
-  <text x="88" y="250" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="23" letter-spacing="3">Himeshbror18</text>
-  <text x="90" y="292" fill="#94a3b8" font-family="ui-sans-serif,system-ui,sans-serif" font-size="18">projects • circuits • experiments • curiosity</text>
-  <rect x="88" y="315" width="180" height="2" rx="1" fill="#22d3ee" opacity=".8"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 360" role="img" aria-labelledby="t d">
+<title id="t">Abstract digital landscape</title>
+<desc id="d">A minimal cinematic cyber landscape with a glowing horizon and geometric forms.</desc>
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop stop-color="#070812"/>
+    <stop offset=".58" stop-color="#10142a"/>
+    <stop offset="1" stop-color="#071b24"/>
+  </linearGradient>
+  <linearGradient id="horizon" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#7c3aed" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#67e8f9"/>
+    <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="mountain" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#222047"/>
+    <stop offset="1" stop-color="#071820"/>
+  </linearGradient>
+  <radialGradient id="sun">
+    <stop stop-color="#c4b5fd" stop-opacity=".9"/>
+    <stop offset=".18" stop-color="#67e8f9" stop-opacity=".35"/>
+    <stop offset="1" stop-color="#67e8f9" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="44" height="28" patternUnits="userSpaceOnUse">
+    <path d="M44 0H0V28" fill="none" stroke="#67e8f9" stroke-opacity=".07"/>
+  </pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="20"/></filter>
+</defs>
+<rect width="1400" height="360" rx="28" fill="url(#sky)"/>
+<ellipse cx="1040" cy="205" rx="240" ry="170" fill="url(#sun)" filter="url(#blur)"/>
+<path d="M0 285L210 210L330 270L520 150L700 275L880 175L1080 270L1260 135L1400 225V360H0Z" fill="url(#mountain)" opacity=".95"/>
+<path d="M0 310L250 240L430 295L650 205L820 300L1060 215L1220 285L1400 190V360H0Z" fill="#080d19" opacity=".9"/>
+<rect x="0" y="245" width="1400" height="115" fill="url(#grid)" opacity=".9"/>
+<path d="M0 252H1400" stroke="url(#horizon)" stroke-width="2"/>
+<path d="M0 278H1400M0 306H1400M0 336H1400" stroke="#67e8f9" stroke-opacity=".09"/>
+<g fill="none" stroke="#a78bfa" stroke-opacity=".32">
+ <path d="M1020 55h100l18 18h96l26 26h100"/>
+ <path d="M1120 55v38M1234 73v46M1334 99v48"/>
+ <path d="M70 72h120l22 22h82"/>
+</g>
+<g fill="#67e8f9">
+ <circle cx="1020" cy="55" r="2.5"/><circle cx="1334" cy="99" r="2.5"/><circle cx="272" cy="94" r="2.5"/>
+</g>
+<text x="76" y="82" fill="#94a3b8" font-family="ui-monospace,SFMono-Regular,monospace" font-size="13" letter-spacing="4">PERSONAL SYSTEM / 01</text>
+<text x="78" y="125" fill="#e2e8f0" font-family="ui-sans-serif,system-ui,sans-serif" font-size="16" letter-spacing="2">A SMALL CORNER OF THE INTERNET</text>
+<text x="78" y="324" fill="#94a3b8" font-family="ui-monospace,SFMono-Regular,monospace" font-size="12" letter-spacing="2">projects · hardware · experiments</text>
 </svg>
