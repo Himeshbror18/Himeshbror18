@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Himeshbror18/Himeshbror18/main/assets/hb-banner.svg" width="100%" alt="Abstract HB profile artwork"/>
+<img src="./assets/profile-hero-v2.svg" width="100%" alt="Abstract digital landscape"/>
 
 </div>
 
@@ -12,7 +12,7 @@ Just the projects and experiments I'm actually interested in.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Himeshbror18/Himeshbror18/main/assets/profile-languages.svg" width="100%" alt="Code language map"/>
+<img src="./assets/code-palette-v2.svg" width="100%" alt="Current code palette"/>
 
 </div>
 
@@ -25,12 +25,6 @@ Just the projects and experiments I'm actually interested in.
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Himeshbror18/Himeshbror18/output/github-snake.svg">
   <img src="https://raw.githubusercontent.com/Himeshbror18/Himeshbror18/output/github-snake.svg" width="100%" alt="Contribution snake"/>
 </picture>
-
-</div>
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Himeshbror18/Himeshbror18/main/assets/profile-trophies.svg" width="100%" alt="Project constellation"/>
 
 </div>
 
