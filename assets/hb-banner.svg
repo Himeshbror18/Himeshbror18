@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+  <title id="title">HB profile banner</title>
+  <desc id="desc">A dark cyber-anime inspired profile banner for HB.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090718"/>
+      <stop offset="0.52" stop-color="#15103a"/>
+      <stop offset="1" stop-color="#06151d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="72%" cy="34%" r="62%">
+      <stop offset="0" stop-color="#a855f7" stop-opacity=".38"/>
+      <stop offset=".42" stop-color="#22d3ee" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f5f3ff"/>
+      <stop offset=".45" stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#c4b5fd" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1400" height="360" rx="28" fill="url(#glow)"/>
+  <rect x="18" y="18" width="1364" height="324" rx="22" fill="url(#grid)"/>
+
+  <circle cx="1080" cy="102" r="70" fill="#a855f7" opacity=".09" filter="url(#soft)"/>
+  <circle cx="1180" cy="176" r="86" fill="#22d3ee" opacity=".07" filter="url(#soft)"/>
+
+  <g opacity=".7" stroke="#67e8f9" stroke-width="2" fill="none">
+    <path d="M860 290 L1040 178 L1400 178" opacity=".28"/>
+    <path d="M920 320 L1082 216 L1400 216" opacity=".2"/>
+    <path d="M990 340 L1120 252 L1400 252" opacity=".16"/>
+    <path d="M1060 360 L1160 286 L1400 286" opacity=".12"/>
+    <path d="M1040 178V320" opacity=".12"/>
+    <path d="M1120 178V300" opacity=".1"/>
+    <path d="M1200 178V282" opacity=".08"/>
+    <path d="M1280 178V268" opacity=".06"/>
+  </g>
+
+  <g fill="none" stroke="#a78bfa" stroke-width="2" opacity=".52">
+    <path d="M880 80h120l22 18h72"/>
+    <path d="M1018 80v28"/>
+    <path d="M1094 98v18h114l28 24h112"/>
+    <path d="M1184 248h82l24-22h86"/>
+  </g>
+  <g fill="#67e8f9" opacity=".85">
+    <circle cx="1000" cy="80" r="3"/><circle cx="1208" cy="142" r="3"/><circle cx="1272" cy="248" r="3"/>
+  </g>
+
+  <text x="82" y="110" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="5">SIGNAL // PROFILE_01</text>
+  <text x="78" y="208" fill="url(#title)" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="110" font-weight="800" letter-spacing="-5">HB</text>
+  <text x="88" y="250" fill="#e2e8f0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="23" letter-spacing="4">HIMESHB ROR18</text>
+  <text x="90" y="292" fill="#94a3b8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18">projects • circuits • experiments • curiosity</text>
+  <rect x="88" y="315" width="180" height="2" rx="1" fill="#22d3ee" opacity=".8"/>
+</svg>
