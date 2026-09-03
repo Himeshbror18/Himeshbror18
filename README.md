@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-hero-v6.svg" width="100%" alt="Anime-inspired evening train scene"/>
+<img src="./assets/profile-hero-v7.svg" width="100%" alt="Anime-inspired maker studio"/>
 
 </div>
 
@@ -8,9 +8,9 @@
 
 <div align="center">
 
-### a small corner of the internet
+### a place for things I actually make
 
-**Projects, experiments, hardware, and ideas that I felt like making.**
+Projects, experiments, hardware, and ideas that start out as a little bit of curiosity.
 
 </div>
 
@@ -18,7 +18,7 @@
 
 <div align="center">
 
-<img src="./assets/code-palette-v6.svg" width="100%" alt="Python, C++, and TypeScript code palette"/>
+<img src="./assets/code-palette-v7.svg" width="100%" alt="Python, C++, and TypeScript code palette"/>
 
 </div>
 
