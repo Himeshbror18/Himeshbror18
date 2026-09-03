@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 560">
+<defs><filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#0B2D42" flood-opacity=".16"/></filter><clipPath id="term"><rect x="417" y="345" width="480" height="24"/></clipPath></defs>
+<rect width="1400" height="560" fill="#FFFFFF"/>
+<path d="M0 380C190 325 350 390 530 345S850 295 1080 345S1280 380 1400 340V560H0Z" fill="#EAF7FB"/>
+<path d="M0 445C220 390 390 465 610 420S1010 370 1400 415V560H0Z" fill="#D6EEF5"/>
+<circle cx="1150" cy="90" r="120" fill="#C6EAF4" opacity=".6"/><circle cx="150" cy="470" r="110" fill="#EDF9FC"/>
+<g opacity=".65" stroke="#0B6F9E" stroke-width="2"><path d="M75 88h145M75 88v30"/><path d="M1325 475h-145M1325 475v-30"/></g>
+<g filter="url(#shadow)"><rect x="310" y="80" width="820" height="390" rx="32" fill="#FFFFFF" stroke="#C8E5EE" stroke-width="2"/>
+<path d="M345 112H1095" stroke="#173B4D" stroke-opacity=".14"/><circle cx="370" cy="112" r="5" fill="#173B4D"/><circle cx="388" cy="112" r="5" fill="#19A9D5"/><circle cx="406" cy="112" r="5" fill="#D5A83A"/>
+<text x="365" y="154" font-family="monospace" font-size="11" letter-spacing="3" fill="#0B5F85">HB / PROFILE · 01</text>
+<text x="365" y="225" font-family="Georgia,serif" font-size="76" font-weight="700" fill="#09263A">Himanshu</text>
+<text x="368" y="254" font-family="monospace" font-size="11" letter-spacing="4" fill="#315D70">BUILDING · LEARNING · EXPERIMENTING</text>
+<path d="M368 269C475 279 590 273 690 260" fill="none" stroke="#0B6F9E" stroke-width="3" stroke-linecap="round"/><circle cx="700" cy="259" r="5" fill="#19A9D5"/>
+<text x="367" y="292" font-family="Arial,sans-serif" font-size="16" fill="#315568" letter-spacing="2">PYTHON · C++ · TYPESCRIPT</text>
+<rect x="365" y="323" width="570" height="66" rx="16" fill="#09263A"/><rect x="365" y="323" width="570" height="66" rx="16" fill="none" stroke="#19A9D5" stroke-opacity=".38"/>
+<text x="392" y="365" font-family="monospace" font-size="18" fill="#FFFFFF">$</text>
+<g clip-path="url(#term)"><text x="417" y="365" font-family="monospace" font-size="18" fill="#FFFFFF">building ideas into working systems</text><rect x="417" y="343" width="0" height="29" fill="#5ED5F2"><animate attributeName="width" values="0;448;0;0" keyTimes="0;.48;.52;1" dur="7s" repeatCount="indefinite"/><animate attributeName="x" values="417;865;417;417" keyTimes="0;.48;.52;1" dur="7s" repeatCount="indefinite"/></rect></g>
+<rect x="417" y="346" width="2" height="23" fill="#5ED5F2"><animate attributeName="x" values="417;865;417" keyTimes="0;.48;1" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0;1" dur="1s" repeatCount="indefinite"/></rect>
+<text x="365" y="426" font-family="Arial,sans-serif" font-size="15" fill="#466A7A">robotics / software / experiments</text><text x="997" y="426" font-family="monospace" font-size="11" fill="#0B6F9E">SKYLINE // 2026</text>
+<path d="M365 445H935" stroke="#173B4D" stroke-opacity=".13"/><path d="M365 445H620" stroke="#19A9D5" stroke-width="4" stroke-linecap="round"/></g>
+<text x="80" y="510" font-family="monospace" font-size="11" letter-spacing="3" fill="#0B5878">CURIOUS MIND / PRACTICAL BUILDER</text></svg>
