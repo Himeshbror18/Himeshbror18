@@ -10,6 +10,6 @@
 
 <br><br>
 
-<img src="https://raw.githubusercontent.com/Himeshbror18/Himeshbror18/output/github-snake.svg" width="100%" alt="Contribution snake."/>
+<img src="https://raw.githubusercontent.com/Himeshbror18/Himeshbror18/output/github-snake-dark.svg" width="100%" alt="Contribution snake."/>
 
 </div>
