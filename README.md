@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-hero-v13.svg" width="100%" alt="Graphic anime-inspired profile artwork"/>
+<img src="./assets/profile-hero-v13.svg" width="100%" alt="Editorial profile artwork"/>
 
 </div>
 
@@ -8,9 +8,9 @@
 
 <div align="center">
 
-### fragments / things I'm making
+### interactive profile
 
-**Code, hardware, experiments.**
+React + React Three Fiber scene → [`profile-app`](./profile-app)
 
 </div>
 
@@ -18,7 +18,7 @@
 
 <div align="center">
 
-<img src="./assets/code-palette-v13.svg" width="100%" alt="Asymmetric Python C++ and TypeScript language palette"/>
+<img src="./assets/code-palette-v13.svg" width="100%" alt="Python, C++ and TypeScript palette"/>
 
 </div>
 
@@ -34,10 +34,4 @@
   <img src="https://raw.githubusercontent.com/Himeshbror18/Himeshbror18/output/github-snake.svg" width="100%" alt="Contribution snake"/>
 </picture>
 
-</div>
-
-<br>
-
-<div align="center">
-<sub>Projects and experiments.</sub>
 </div>
