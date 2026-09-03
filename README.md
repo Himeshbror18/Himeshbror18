@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="./assets/profile-hero-v22.svg" width="100%" alt="Himanshu profile — white sky theme with dynamic geometric accents."/>
+<img src="./assets/profile-hero-v23.svg" width="100%" alt="Himanshu profile"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=17&duration=2800&pause=900&color=FFFFFF&background=09263AFF&center=true&vCenter=true&width=800&height=52&lines=himesh%40linux%3A~%24+building+ideas+into+working+systems;himesh%40linux%3A~%24+python+%E2%80%A2+cpp+%E2%80%A2+linux+%E2%80%A2+web;himesh%40linux%3A~%24+./experiment+--run" alt="Linux terminal typing introduction"/>
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=16&duration=3000&pause=900&color=09263A&background=FFFFFF00&center=true&vCenter=true&width=800&height=42&lines=himesh%40linux%3A~%24+building+ideas+into+working+systems;himesh%40linux%3A~%24+python+%2B+cpp+%2B+typescript;himesh%40linux%3A~%24+.%2Fexperiment+--run" alt="Linux terminal typing effect"/>
 
 <br><br>
 
-<img src="./assets/code-palette-v21.svg" width="100%" alt="Python, C++, and TypeScript language cards with their recognizable brand marks and colours."/>
+<img src="./assets/code-palette-v22.svg" width="100%" alt="Dynamic Python, C++, and TypeScript language palette"/>
 
 <br><br>
 
