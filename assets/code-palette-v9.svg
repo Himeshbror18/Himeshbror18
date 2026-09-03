@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 360">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#fbf7ee"/><stop offset=".5" stop-color="#eee9f5"/><stop offset="1" stop-color="#e5f2f0"/></linearGradient></defs>
+<rect width="1100" height="360" rx="30" fill="url(#bg)"/>
+<text x="58" y="55" font-family="ui-sans-serif,system-ui" font-size="17" font-weight="600" fill="#30283e">code / in rotation</text>
+<path d="M58 70h95" stroke="#c74359" stroke-width="3"/>
+<!-- orbit lines -->
+<g fill="none" stroke="#554568" stroke-opacity=".35" stroke-width="2">
+ <ellipse cx="300" cy="190" rx="180" ry="82" transform="rotate(-12 300 190)"/>
+ <ellipse cx="555" cy="180" rx="180" ry="90" transform="rotate(9 555 180)"/>
+ <ellipse cx="805" cy="190" rx="170" ry="78" transform="rotate(-10 805 190)"/>
+</g>
+<!-- overlapping circles -->
+<g font-family="ui-sans-serif,system-ui">
+ <circle cx="270" cy="185" r="78" fill="#3776ab"/><circle cx="325" cy="214" r="49" fill="#ffd343" opacity=".95"/>
+ <text x="270" y="194" text-anchor="middle" font-size="28" font-weight="800" fill="#fff">Py</text>
+ <text x="325" y="220" text-anchor="middle" font-size="13" font-weight="800" fill="#55421c">01</text>
+ <text x="205" y="298" font-size="20" font-weight="700" fill="#30283e">Python</text>
+ <text x="205" y="320" font-size="12" fill="#6b6475">experiments / automation</text>
+ 
+ <circle cx="545" cy="177" r="84" fill="#00599c"/><circle cx="590" cy="125" r="38" fill="#7d5aa3"/>
+ <text x="545" y="188" text-anchor="middle" font-size="25" font-weight="800" fill="#fff">C++</text>
+ <text x="482" y="298" font-size="20" font-weight="700" fill="#30283e">C++</text>
+ <text x="482" y="320" font-size="12" fill="#6b6475">logic / systems</text>
+ 
+ <circle cx="810" cy="188" r="73" fill="#3178c6"/><circle cx="852" cy="218" r="43" fill="#c74359"/>
+ <text x="810" y="197" text-anchor="middle" font-size="23" font-weight="800" fill="#fff">TS</text>
+ <text x="760" y="298" font-size="20" font-weight="700" fill="#30283e">TypeScript</text>
+ <text x="760" y="320" font-size="12" fill="#6b6475">web / interfaces</text>
+</g>
+<!-- annotation marks -->
+<g fill="#554568" font-family="ui-monospace,SFMono-Regular,monospace" font-size="11">
+ <text x="88" y="125">notes:</text><text x="88" y="143">not a ranking</text>
+ <text x="950" y="95" transform="rotate(8 950 95)">03—</text>
+ <text x="915" y="255" transform="rotate(-7 915 255)">still exploring</text>
+</g>
+</svg>
