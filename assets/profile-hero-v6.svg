@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 500">
+<defs>
+<linearGradient id="sky" x2="0" y2="1"><stop stop-color="#8fb9e8"/><stop offset=".55" stop-color="#c9c9ed"/><stop offset="1" stop-color="#f6d5b8"/></linearGradient>
+<linearGradient id="ground" x2="0" y2="1"><stop stop-color="#555b82"/><stop offset="1" stop-color="#292e4b"/></linearGradient>
+<linearGradient id="rail" x2="1"><stop stop-color="#b8bfd2"/><stop offset=".5" stop-color="#f5d7c4"/><stop offset="1" stop-color="#9fa9c1"/></linearGradient>
+<radialGradient id="sun"><stop stop-color="#fff8d9" stop-opacity=".95"/><stop offset="1" stop-color="#ffe0c5" stop-opacity="0"/></radialGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
+</defs>
+<rect width="1400" height="500" rx="30" fill="url(#sky)"/>
+<circle cx="1030" cy="190" r="175" fill="url(#sun)" filter="url(#blur)"/>
+<!-- distant anime landscape -->
+<path d="M0 315L130 255 235 300 360 220 490 300 625 250 760 305 900 235 1030 305 1160 220 1400 305V380H0Z" fill="#7782aa" opacity=".46"/>
+<path d="M0 340L180 285 300 325 455 270 610 330 780 275 930 325 1100 265 1240 320 1400 275V390H0Z" fill="#5c668d" opacity=".55"/>
+<!-- distant town -->
+<g fill="#59617f" opacity=".7">
+<path d="M0 330h95v-55h24v55h38v-88h34v88h44v-45h26v45h50v-68h29v68h42v-37h25v37h44v-76h31v76h45v-52h23v52h45v-92h30v92h55v-45h25v45h45v-67h31v67h58v-52h22v52h52v-82h31v82h54v-48h25v48h53v-70h27v70h58v-44h22v44h55v-80h29v80h60v-58h24v58h70v50H0Z"/>
+</g>
+<!-- platform -->
+<path d="M0 382L1400 350V500H0Z" fill="url(#ground)"/>
+<path d="M0 377L1400 345" stroke="#f4eee6" stroke-opacity=".75" stroke-width="5"/>
+<path d="M0 395L1400 365" stroke="#b6b9c8" stroke-opacity=".5" stroke-width="3"/>
+<!-- perspective platform lines -->
+<g stroke="#d5b8d0" stroke-opacity=".22" stroke-width="2">
+<path d="M160 500L590 375M430 500L690 370M740 500L790 368M1060 500L880 365M1320 500L950 360"/>
+</g>
+<!-- simple station canopy -->
+<path d="M55 92H1345L1270 145H130L55 92Z" fill="#3d4566" opacity=".88"/>
+<path d="M105 145H1300" stroke="#f5d9ce" stroke-opacity=".55" stroke-width="3"/>
+<g stroke="#424a6b" stroke-width="10">
+<path d="M150 145V370M1230 145V365"/>
+</g>
+<!-- overhead wire -->
+<path d="M0 185Q350 145 700 180T1400 155" fill="none" stroke="#4b5272" stroke-width="3" opacity=".7"/>
+<path d="M250 165v45M690 165v42M1130 165v42" stroke="#4b5272" stroke-width="3" opacity=".7"/>
+<!-- tiny train -->
+<g transform="translate(810 285)">
+<path d="M0 50V0h260l55 50v52H0Z" fill="#e8edf4" opacity=".9"/>
+<path d="M22 18h55v32H22zM92 18h55v32H92zM162 18h55v32h-55zM232 18h25v32h-25z" fill="#7b86ad"/>
+<path d="M0 58h315" stroke="#d59db5" stroke-width="6"/>
+<circle cx="55" cy="105" r="14" fill="#343a58"/><circle cx="255" cy="105" r="14" fill="#343a58"/>
+</g>
+<!-- floating paper / anime accent -->
+<path d="M410 110l54-18-18 55-48 12Z" fill="#fffaf2" opacity=".85" transform="rotate(-8 438 120)"/>
+<path d="M410 110l54-18-35 8Z" fill="#c9b7df" opacity=".65"/>
+<g fill="#fff" opacity=".72"><circle cx="315" cy="82" r="3"/><circle cx="550" cy="62" r="2.5"/><circle cx="1180" cy="95" r="3"/><circle cx="1270" cy="60" r="2"/></g>
+<text x="82" y="235" font-family="ui-sans-serif,system-ui" font-size="13" letter-spacing="5" fill="#36415f" opacity=".65">06:17 PM</text>
+</svg>
