@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 390">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbf7ef"/><stop offset=".45" stop-color="#f0ebf5"/><stop offset="1" stop-color="#e4f2ef"/></linearGradient></defs>
+<rect width="1100" height="390" rx="28" fill="url(#bg)"/>
+<text x="56" y="55" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#17151b">LANGUAGES</text>
+<path d="M56 70h90" stroke="#ff3151" stroke-width="3"/>
+<!-- asymmetric organic shapes, not moons -->
+<path d="M150 120C195 70 300 75 338 135C370 186 333 264 267 277C193 291 122 248 126 187C128 159 137 137 150 120Z" fill="#3776ab"/>
+<path d="M280 215C306 182 352 183 371 213C389 241 367 274 331 282C300 288 267 265 267 241C267 231 273 222 280 215Z" fill="#ffd343"/>
+<text x="232" y="202" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="800" fill="#fff">Py</text>
+<text x="150" y="320" font-family="Arial,sans-serif" font-size="21" font-weight="800" fill="#17151b">PYTHON</text>
+<text x="150" y="342" font-family="monospace" font-size="11" fill="#6b6475">automation / experiments</text>
+<path d="M470 112C525 78 620 95 650 155C676 208 641 271 578 282C510 294 451 253 449 194C448 159 457 130 470 112Z" fill="#00599c"/>
+<path d="M620 112C647 88 690 94 703 121C715 147 696 173 667 178C639 181 613 162 613 139C613 128 616 119 620 112Z" fill="#ff3151"/>
+<text x="550" y="203" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="800" fill="#fff">C++</text>
+<text x="470" y="320" font-family="Arial,sans-serif" font-size="21" font-weight="800" fill="#17151b">C++</text>
+<text x="470" y="342" font-family="monospace" font-size="11" fill="#6b6475">logic / systems</text>
+<path d="M790 125C832 82 914 92 947 143C980 195 951 254 899 271C842 289 775 258 765 207C759 175 773 145 790 125Z" fill="#3178c6"/>
+<path d="M900 220C925 194 968 202 978 232C988 260 965 286 934 287C903 288 881 266 884 244C886 235 892 227 900 220Z" fill="#76539f"/>
+<text x="855" y="203" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="800" fill="#fff">TS</text>
+<text x="790" y="320" font-family="Arial,sans-serif" font-size="21" font-weight="800" fill="#17151b">TYPESCRIPT</text>
+<text x="790" y="342" font-family="monospace" font-size="11" fill="#6b6475">web / interfaces</text>
+</svg>
